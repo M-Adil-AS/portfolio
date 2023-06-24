@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react';
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 
 
-const constantEmail = "user@gmail.com"
+const constantEmail = "madilas565@gmail.com"
 const contacts = [
 	{
 		id: 1,
-		name: 'Your City, Your Country',
+		name: 'Karachi, Pakistan',
 		icon: <FiMapPin />,
 	},
 	{
@@ -16,7 +16,7 @@ const contacts = [
 	},
 	{
 		id: 3,
-		name: '555 8888 888',
+		name: '0304 0306441',
 		icon: <FiPhone />,
 	},
 ];
@@ -26,7 +26,7 @@ const ContactDetails = () => {
 		// console.log("working")
 		const handleResize = () => {
 			const { beforeAt, afterAt } = splitEmailAddress();
-			if (window.innerWidth <= 267) {
+			if (window.innerWidth <= 315) {
 				setEmail(`${beforeAt}@\n${afterAt}`);
 				contacts[1].name = `${beforeAt}@\n${afterAt}`
 			} else {

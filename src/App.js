@@ -6,6 +6,7 @@ import AppFooter from './components/shared/AppFooter';
 import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
+import useThemeSwitcher from './hooks/useThemeSwitcher';
 
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
@@ -15,15 +16,17 @@ const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 
 function App() {
+	const [activeTheme, setTheme] = useThemeSwitcher();
+
 	return (
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
 				<Router>
 					<ScrollToTop />
-					<AppHeader />
+					<AppHeader activeTheme={activeTheme} setTheme={setTheme}/>
 					<Suspense fallback={""}>
 						<Routes>
-							<Route path="/" element={<Home />} />
+							<Route path="/" element={<Home activeTheme={activeTheme} setTheme={setTheme}/>} />
 							<Route path="projects" element={<Projects />} />
 							<Route
 								path="projects/single-project/:name"

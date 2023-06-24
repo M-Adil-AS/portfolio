@@ -4,10 +4,10 @@ import ProjectsGrid from '../components/projects/ProjectsGrid';
 import { ProjectsProvider } from '../context/ProjectsContext';
 import Button from '../components/reusable/Button';
 
-const Home = () => {
+const Home = ({activeTheme, setTheme}) => {
 	return (
 		<div className="container mx-auto">
-			<AppBanner></AppBanner>
+			<AppBanner activeTheme={activeTheme} setTheme={setTheme}></AppBanner>
 
 			<ProjectsProvider>
 				<ProjectsGrid></ProjectsGrid>

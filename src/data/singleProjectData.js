@@ -23,13 +23,13 @@ const processData = () => {
 				id: 1,
 				name: 'Twitter',
 				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
+				url: 'https://twitter.com/',
 			},
 			{
 				id: 2,
 				name: 'Instagram',
 				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
+				url: 'https://instagram.com/',
 			},
 			{
 				id: 3,
@@ -47,7 +47,7 @@ const processData = () => {
 				id: 5,
 				name: 'Youtube',
 				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
+				url: 'https://www.youtube.com/',
 			},
 		]
 
