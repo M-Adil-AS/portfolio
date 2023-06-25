@@ -22,7 +22,7 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
+		title: 'Pharmacy POS',
 		category: 'Desktop Application',
 		img: MobileImage2,
 	},
