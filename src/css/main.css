@@ -1141,6 +1141,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .profilePic{
   width: -webkit-fill-available;
 }
+.svgMinWidth{
+  min-width: 20px;
+}
 
 @media (min-width: 640px) and (max-width: 768px) {
   .controlPadding{

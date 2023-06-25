@@ -5,13 +5,20 @@ import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
+import Crosswords1 from '../images/Crosswords 1.png'
 
 export const projectsData = [
 	{
-		id: 1,
-		title: 'Computer Vision Assisted Drive Thru Store with On chain Transactions',
-		category: 'Web3 Application',
-		img: WebImage2,
+		id: 100,
+		title: 'Crosswords',
+		category: 'Game Development',
+		img: Crosswords1,
+	},
+	{
+		id: 101,
+		title: 'Crosswords',
+		category: 'Problem Solving',
+		img: Crosswords1,
 	},
 	{
 		id: 2,

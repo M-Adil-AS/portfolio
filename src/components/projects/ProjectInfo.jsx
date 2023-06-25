@@ -8,38 +8,40 @@ const ProjectInfo = () => {
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 			<div className="w-full sm:w-1/3 text-left">
 				{/* Single project client details */}
-				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
-						{onlyCurrentProject.ProjectInfo.ClientHeading}
-					</p>
-					<ul className="leading-loose">
-						{onlyCurrentProject.ProjectInfo.CompanyInfo.map(
-							(info) => {
-								const isWebsite = info.title == 'Website'
+				{ onlyCurrentProject.ProjectInfo.ClientHeading &&
+					<div className="mb-7">
+						<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
+							{onlyCurrentProject.ProjectInfo.ClientHeading}
+						</p>
+						<ul className="leading-loose">
+							{onlyCurrentProject.ProjectInfo.CompanyInfo.map(
+								(info) => {
+									const isWebsite = info.title == 'Website'
 
-								return (
-									<li
-										className="font-general-regular text-ternary-dark dark:text-ternary-light textJustify overflowControl"
-										key={info.id}
-									>
-										<span>{info.title}: </span>
-										<a
-											{...(isWebsite && { href: info.details })}
-											className={
-												info.title === 'Website'
-													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
-													: ''
-											}
-											aria-label="Project Website and Phone"
+									return (
+										<li
+											className="font-general-regular text-ternary-dark dark:text-ternary-light textJustify overflowControl"
+											key={info.id}
 										>
-											{info.details}
-										</a>
-									</li>
-								);
-							}
-						)}
-					</ul>
-				</div>
+											<span>{info.title}: </span>
+											<a
+												{...(isWebsite && { href: info.details })}
+												className={
+													info.title === 'Website'
+														? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
+														: ''
+												}
+												aria-label="Project Website and Phone"
+											>
+												{info.details}
+											</a>
+										</li>
+									);
+								}
+							)}
+						</ul>
+					</div>
+				}
 
 				{/* Single project objectives */}
 				<div className="mb-7">
