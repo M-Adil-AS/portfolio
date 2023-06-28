@@ -1,11 +1,7 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
 import Doodle1 from '../images/Doodle1.png';
-import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
 import Crosswords1 from '../images/Crosswords 1.png'
+import Connectify1 from '../images/Connectify1.png';
 
 export const projectsData = [
 	{
@@ -31,6 +27,12 @@ export const projectsData = [
 		title: 'Doodle Jump',
 		category: 'Problem Solving',
 		img: Doodle1,
+	},
+	{
+		id: 104,
+		title: 'Connectify',
+		category: 'Web Application',
+		img: Connectify1,
 	},
 
 

@@ -1,13 +1,13 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
 import Crosswords2 from '../images/Crosswords 2.png';
 import Crosswords3 from '../images/Crosswords 3.png';
 import Crosswords4 from '../images/Crosswords 4.png';
 import Doodle2 from '../images/Doodle2.png';
 import Doodle3 from '../images/Doodle3.png';
 import Doodle4 from '../images/Doodle4.png';
+import Connectify2 from '../images/Connectify2.png';
+import Connectify3 from '../images/Connectify3.png';
+import Connectify4 from '../images/Connectify4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -158,6 +158,30 @@ let singleProjectRawData = [
 			ProjectDetails: [
 				{id: 1, details: 'This game is built using HTML5 Canvas Element and Object Oriented Programming in JavaScript.'},
 				{id: 2, details: 'It makes use of concepts like infinite scrolling of game objects and background. The game gets more difficult to play with the increase in score value.'},
+			],
+		}
+	},
+
+	{
+		id:104,
+		ProjectHeader: {title: 'Connectify', publishDate: 'Dec 30, 2019', tags: 'Web Application'},
+		ProjectImages: [
+			{id: 1, title: 'Connectify', img: Connectify2},
+			{id: 2, title: 'Connectify', img: Connectify3},
+			{id: 3, title: 'Connectify', img: Connectify4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build a social app with chatting feature',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Connectify",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://connectify-production.up.railway.app/",
+			Technologies: [{title: 'Tools & Technologies', techs: ['Express.js', 'Node.js', 'Socket.io', 'EJS', 'CSS', 'Bootstrap', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A social networking application, incorporating features commonly found in social media platforms.'},
+				{id: 2, details: 'The social app project involves implementing user authentication and authorization, allowing users to register, log in, and manage their profiles. It includes features like creating and editing user posts, following other users, and implementing a news feed to display the latest posts from followed users. Additionally, Socket.io is integrated to enable real-time instant messaging or notifications between users.'},
 			],
 		}
 	},
