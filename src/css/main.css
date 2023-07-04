@@ -1144,6 +1144,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .svgMinWidth{
   min-width: 20px;
 }
+.customBg{
+  background: rgb(30 56 81);
+  color: darkgrey;
+}
+.customBg:hover{
+  background: rgb(99 102 241);
+  color:white
+}
 
 @media (min-width: 640px) and (max-width: 768px) {
   .controlPadding{
