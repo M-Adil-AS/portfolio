@@ -2,6 +2,8 @@
 import Doodle1 from '../images/Doodle1.png';
 import Crosswords1 from '../images/Crosswords 1.png'
 import Connectify1 from '../images/Connectify1.png';
+import Clustering1 from '../images/Clustering1.png'
+import KNN1 from '../images/KNN1.png'
 
 export const projectsData = [
 	{
@@ -33,6 +35,30 @@ export const projectsData = [
 		title: 'Connectify',
 		category: 'Web Application',
 		img: Connectify1,
+	},
+	{
+		id: 105,
+		title: 'K Means Clustering',
+		category: 'Artificial Intelligence',
+		img: Clustering1,
+	},
+	{
+		id: 106,
+		title: 'K Means Clustering',
+		category: 'Problem Solving',
+		img: Clustering1,
+	},
+	{
+		id: 107,
+		title: 'K Nearest Neighbor',
+		category: 'Artificial Intelligence',
+		img: KNN1,
+	},
+	{
+		id: 108,
+		title: 'K Nearest Neighbor',
+		category: 'Problem Solving',
+		img: KNN1,
 	},
 
 

@@ -3,7 +3,7 @@ import SingleProjectContext from '../../context/SingleProjectContext';
 import { Link } from 'react-router-dom';
 import slugify from 'react-slugify';
 
-const ProjectRelatedProjects = () => {
+const ProjectRelatedProjects = ({activeTheme}) => {
 	const { onlyCurrentProject } = useContext(SingleProjectContext);
 
 	if(onlyCurrentProject.RelatedProject.Projects.length==0){
@@ -20,14 +20,14 @@ const ProjectRelatedProjects = () => {
 					{onlyCurrentProject.RelatedProject.Projects.map((project,key) => {
 						if(key < 4)
 							return (
-								<Link to={`/projects/single-project/${slugify(project.title)}`}>
+								<Link to={`/projects/single-project/${slugify(project.title)}`} className={`rounded-xl ${activeTheme==='dark' ? 'border border-gray-500' : 'customBorder'}`}>
 									<img
 										src={project.img}
-										className="rounded-xl cursor-pointer"
+										className="rounded-t-xl cursor-pointer"
 										alt={project.title}
 										key={project.id}
 									/>
-									<p className='text-center text-primary-dark dark:text-primary-light mt-2 text-lg controlText truncateMul'>{project.title}</p>
+									<p className='text-center text-primary-dark dark:text-primary-light mt-4 mb-4 text-lg controlText truncateMul px-4'>{project.title}</p>
 								</Link>
 							);
 					})}

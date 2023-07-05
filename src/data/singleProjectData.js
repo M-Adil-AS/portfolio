@@ -8,6 +8,12 @@ import Doodle4 from '../images/Doodle4.png';
 import Connectify2 from '../images/Connectify2.png';
 import Connectify3 from '../images/Connectify3.png';
 import Connectify4 from '../images/Connectify4.png';
+import Clustering2 from '../images/Clustering2.png';
+import Clustering3 from '../images/Clustering3.png';
+import Clustering4 from '../images/Clustering4.png';
+import KNN2 from '../images/KNN2.png';
+import KNN3 from '../images/KNN3.png';
+import KNN4 from '../images/KNN4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -186,7 +192,101 @@ let singleProjectRawData = [
 		}
 	},
 
+	{
+		id:105,
+		ProjectHeader: {title: 'K Means Clustering', publishDate: 'June 25, 2020', tags: 'AI - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'K Means Clustering', img: Clustering2},
+			{id: 2, title: 'K Means Clustering', img: Clustering3},
+			{id: 3, title: 'K Means Clustering', img: Clustering4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To implement K-Means Clustering Algorithm and visualize using graph',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/K-Means-Cluster",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/K-Means-Cluster/",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript', 'Chart.JS']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'An unsupervised machine learning classification algorithm implemented in JavaScript.'},
+				{id: 2, details: 'Chart.js is used to visualize how K-Means algorithm works. In this project, data points have two features RGB and WGB which relate to the medical data of patients. After the algorithm has finished executing, patients are divided into different groups based on clusters.'},
+			],
+		}
+	},
 
+	{
+		id:106,
+		ProjectHeader: {title: 'K Means Clustering', publishDate: 'June 25, 2020', tags: 'AI - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'K Means Clustering', img: Clustering2},
+			{id: 2, title: 'K Means Clustering', img: Clustering3},
+			{id: 3, title: 'K Means Clustering', img: Clustering4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To implement K-Means Clustering Algorithm and visualize using graph',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/K-Means-Cluster",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/K-Means-Cluster/",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript', 'Chart.JS']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'An unsupervised machine learning classification algorithm implemented in JavaScript.'},
+				{id: 2, details: 'Chart.js is used to visualize how K-Means algorithm works. In this project, data points have two features RGB and WGB which relate to the medical data of patients. After the algorithm has finished executing, patients are divided into different groups based on clusters.'},
+			],
+		}
+	},
+
+	{
+		id:107,
+		ProjectHeader: {title: 'K Nearest Neighbor', publishDate: 'June 19, 2020', tags: 'AI - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'K Nearest Neighbor', img: KNN2},
+			{id: 2, title: 'K Nearest Neighbor', img: KNN3},
+			{id: 3, title: 'K Nearest Neighbor', img: KNN4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To implement K-Nearest Neighbor Algorithm and visualize using graph',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/K-Nearest-Neighbor",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/K-Nearest-Neighbor",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript', 'Chart.JS']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A supervised machine learning classification algorithm implemented in JavaScript.'},
+				{id: 2, details: 'Chart.js is used to visualize how K-Nearest Neighbor algorithm works. In this project, data points have two features Humidity and Pressure which relate to the history of weather. The algorithm makes a prediction whether it will rain or not based on the input test data.'},
+			],
+		}
+	},
+
+	{
+		id:108,
+		ProjectHeader: {title: 'K Nearest Neighbor', publishDate: 'June 19, 2020', tags: 'AI - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'K Nearest Neighbor', img: KNN2},
+			{id: 2, title: 'K Nearest Neighbor', img: KNN3},
+			{id: 3, title: 'K Nearest Neighbor', img: KNN4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To implement K-Nearest Neighbor Algorithm and visualize using graph',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/K-Nearest-Neighbor",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/K-Nearest-Neighbor",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript', 'Chart.JS']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A supervised machine learning classification algorithm implemented in JavaScript.'},
+				{id: 2, details: 'Chart.js is used to visualize how K-Nearest Neighbor algorithm works. In this project, data points have two features Humidity and Pressure which relate to the history of weather. The algorithm makes a prediction whether it will rain or not based on the input test data.'},
+			],
+		}
+	},
 
 
 

@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import SingleProjectContext from '../../context/SingleProjectContext';
 
-const ProjectGallery = () => {
+const ProjectGallery = ({activeTheme}) => {
 	const { onlyCurrentProject } = useContext(SingleProjectContext);
 
 	return (
@@ -11,7 +11,7 @@ const ProjectGallery = () => {
 					<div className="mb-10 sm:mb-0" key={project.id}>
 						<img
 							src={project.img}
-							className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
+							className={`rounded-xl cursor-pointer ${activeTheme=='dark' ? 'border border-grey-500' : ''}`}
 							alt={project.title}
 							key={project.id}
 						/>

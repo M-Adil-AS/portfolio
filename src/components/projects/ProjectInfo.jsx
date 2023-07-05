@@ -5,7 +5,7 @@ const ProjectInfo = () => {
 	const { onlyCurrentProject } = useContext(SingleProjectContext);
 
 	return (
-		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
+		<div className="block sm:flex gap-0 sm:gap-10 mt-6 sm:mt-14">
 			<div className="w-full sm:w-1/3 text-left">
 				{/* Single project client details */}
 				{ onlyCurrentProject.ProjectInfo.ClientHeading &&

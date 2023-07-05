@@ -1152,6 +1152,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background: rgb(99 102 241);
   color:white
 }
+.customBorder{
+  border: 1px solid rgb(30 56 81);
+}
 
 @media (min-width: 640px) and (max-width: 768px) {
   .controlPadding{

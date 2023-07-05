@@ -5,7 +5,7 @@ import ProjectRelatedProjects from '../components/projects/ProjectRelatedProject
 import { SingleProjectProvider } from '../context/SingleProjectContext';
 import { motion } from 'framer-motion';
 
-const ProjectSingle = () => {
+const ProjectSingle = ({activeTheme}) => {
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -19,9 +19,9 @@ const ProjectSingle = () => {
 		>
 			<SingleProjectProvider>
 				<ProjectHeader />
-				<ProjectGallery />
+				<ProjectGallery activeTheme={activeTheme}/>
 				<ProjectInfo />
-				<ProjectRelatedProjects />
+				<ProjectRelatedProjects activeTheme={activeTheme}/>
 			</SingleProjectProvider>
 		</motion.div>
 	);

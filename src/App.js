@@ -30,7 +30,7 @@ function App() {
 							<Route path="projects" element={<Projects />} />
 							<Route
 								path="projects/single-project/:name"
-								element={<ProjectSingle />}
+								element={<ProjectSingle activeTheme={activeTheme}/>}
 							/>
 
 							<Route path="about" element={<About />} />
