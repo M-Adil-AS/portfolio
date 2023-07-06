@@ -60,11 +60,23 @@ const processData = () => {
 			},
 		]
 
-		let category = (projectsData.find(project => project.id === rawProject.id)).category
+		let categories = (projectsData.filter(project => rawProject.id.includes(project.id))).map(project => project.category)
 
+		let relatedProjects = projectsData.filter(project => categories.includes(project.category) && !rawProject.id.includes(project.id))
+		relatedProjects = relatedProjects.filter((value, index, self) => {
+			return self.findIndex(v => v.title === value.title) === index;
+		})
+
+		relatedProjects.forEach(rp => {
+			let count = (projectsData.filter(p => p.title==rp.title && categories.includes(p.category))).length
+			rp.count = count
+		})
+
+		relatedProjects.sort((a,b) => b.count - a.count)
+		
 		rawProject['RelatedProject'] = {
 			title: 'Related Projects',
-			Projects: projectsData.filter(project => project.category === category && project.id != rawProject.id)
+			Projects: relatedProjects
 		}
 
 		return rawProject
@@ -73,7 +85,7 @@ const processData = () => {
 
 let singleProjectRawData = [
 	{
-		id:100,
+		id:[100,101],
 		ProjectHeader: {title: 'Crosswords', publishDate: 'Dec 28, 2021', tags: 'Game Dev - Problem Solving'},
 		ProjectImages: [
 			{id: 1, title: 'Crosswords', img: Crosswords2},
@@ -97,31 +109,7 @@ let singleProjectRawData = [
 	},
 
 	{
-		id:101,
-		ProjectHeader: {title: 'Crosswords', publishDate: 'Dec 28, 2021', tags: 'Game Dev - Problem Solving'},
-		ProjectImages: [
-			{id: 1, title: 'Crosswords', img: Crosswords2},
-			{id: 2, title: 'Crosswords', img: Crosswords3},
-			{id: 3, title: 'Crosswords', img: Crosswords4},
-		],
-		ProjectInfo: {
-			ObjectivesHeading: 'Objective',
-			ObjectivesDetails: 'To generate a dynamic crosswords puzzle using a time efficient method',
-			CodeUrlHeading: "Code",
-			codeUrl: "https://github.com/M-Adil-AS/Crosswords",
-			demoUrlHeading: "Demo",
-			demoUrl: "https://m-adil-as.github.io/Crosswords/",
-			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
-			ProjectDetailsHeading: 'Description',
-			ProjectDetails: [
-				{id: 1, details: 'This project was inspired by the Android game Wordscapes. Wordscapes have hundreds of levels but those levels are hardcoded.'},
-				{id: 2, details: 'In this game, we get a random combination of 6 alphabets to make words from in limited time. Instead of being a hardcoded puzzle, the program generates a dynamic puzzle everytime using words from dictionary in a very short period of time (3 seconds average).'},
-			],
-		}
-	},
-
-	{
-		id:102,
+		id:[102,103],
 		ProjectHeader: {title: 'Doodle Jump', publishDate: 'Sept 20, 2022', tags: 'Game Dev - Problem Solving'},
 		ProjectImages: [
 			{id: 1, title: 'Doodle Jump', img: Doodle2},
@@ -145,31 +133,7 @@ let singleProjectRawData = [
 	},
 
 	{
-		id:103,
-		ProjectHeader: {title: 'Doodle Jump', publishDate: 'Sept 20, 2022', tags: 'Game Dev - Problem Solving'},
-		ProjectImages: [
-			{id: 1, title: 'Doodle Jump', img: Doodle2},
-			{id: 2, title: 'Doodle Jump', img: Doodle3},
-			{id: 3, title: 'Doodle Jump', img: Doodle4},
-		],
-		ProjectInfo: {
-			ObjectivesHeading: 'Objective',
-			ObjectivesDetails: 'To build a Doodle Jump game which gets harder to play over time',
-			CodeUrlHeading: "Code",
-			codeUrl: "https://github.com/M-Adil-AS/Doodle-Jump",
-			demoUrlHeading: "Demo",
-			demoUrl: "https://m-adil-as.github.io/Doodle-Jump/",
-			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
-			ProjectDetailsHeading: 'Description',
-			ProjectDetails: [
-				{id: 1, details: 'This game is built using HTML5 Canvas Element and Object Oriented Programming in JavaScript.'},
-				{id: 2, details: 'It makes use of concepts like infinite scrolling of game objects and background. The game gets more difficult to play with the increase in score value.'},
-			],
-		}
-	},
-
-	{
-		id:104,
+		id:[104],
 		ProjectHeader: {title: 'Connectify', publishDate: 'Dec 30, 2019', tags: 'Web Application'},
 		ProjectImages: [
 			{id: 1, title: 'Connectify', img: Connectify2},
@@ -193,7 +157,7 @@ let singleProjectRawData = [
 	},
 
 	{
-		id:105,
+		id:[105,106],
 		ProjectHeader: {title: 'K Means Clustering', publishDate: 'June 25, 2020', tags: 'AI - Problem Solving'},
 		ProjectImages: [
 			{id: 1, title: 'K Means Clustering', img: Clustering2},
@@ -217,55 +181,7 @@ let singleProjectRawData = [
 	},
 
 	{
-		id:106,
-		ProjectHeader: {title: 'K Means Clustering', publishDate: 'June 25, 2020', tags: 'AI - Problem Solving'},
-		ProjectImages: [
-			{id: 1, title: 'K Means Clustering', img: Clustering2},
-			{id: 2, title: 'K Means Clustering', img: Clustering3},
-			{id: 3, title: 'K Means Clustering', img: Clustering4},
-		],
-		ProjectInfo: {
-			ObjectivesHeading: 'Objective',
-			ObjectivesDetails: 'To implement K-Means Clustering Algorithm and visualize using graph',
-			CodeUrlHeading: "Code",
-			codeUrl: "https://github.com/M-Adil-AS/K-Means-Cluster",
-			demoUrlHeading: "Demo",
-			demoUrl: "https://m-adil-as.github.io/K-Means-Cluster/",
-			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript', 'Chart.JS']}],
-			ProjectDetailsHeading: 'Description',
-			ProjectDetails: [
-				{id: 1, details: 'An unsupervised machine learning classification algorithm implemented in JavaScript.'},
-				{id: 2, details: 'Chart.js is used to visualize how K-Means algorithm works. In this project, data points have two features RGB and WGB which relate to the medical data of patients. After the algorithm has finished executing, patients are divided into different groups based on clusters.'},
-			],
-		}
-	},
-
-	{
-		id:107,
-		ProjectHeader: {title: 'K Nearest Neighbor', publishDate: 'June 19, 2020', tags: 'AI - Problem Solving'},
-		ProjectImages: [
-			{id: 1, title: 'K Nearest Neighbor', img: KNN2},
-			{id: 2, title: 'K Nearest Neighbor', img: KNN3},
-			{id: 3, title: 'K Nearest Neighbor', img: KNN4},
-		],
-		ProjectInfo: {
-			ObjectivesHeading: 'Objective',
-			ObjectivesDetails: 'To implement K-Nearest Neighbor Algorithm and visualize using graph',
-			CodeUrlHeading: "Code",
-			codeUrl: "https://github.com/M-Adil-AS/K-Nearest-Neighbor",
-			demoUrlHeading: "Demo",
-			demoUrl: "https://m-adil-as.github.io/K-Nearest-Neighbor",
-			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript', 'Chart.JS']}],
-			ProjectDetailsHeading: 'Description',
-			ProjectDetails: [
-				{id: 1, details: 'A supervised machine learning classification algorithm implemented in JavaScript.'},
-				{id: 2, details: 'Chart.js is used to visualize how K-Nearest Neighbor algorithm works. In this project, data points have two features Humidity and Pressure which relate to the history of weather. The algorithm makes a prediction whether it will rain or not based on the input test data.'},
-			],
-		}
-	},
-
-	{
-		id:108,
+		id:[107,108],
 		ProjectHeader: {title: 'K Nearest Neighbor', publishDate: 'June 19, 2020', tags: 'AI - Problem Solving'},
 		ProjectImages: [
 			{id: 1, title: 'K Nearest Neighbor', img: KNN2},

@@ -105,8 +105,8 @@ const ProjectsGrid = () => {
 					? selectProjectsByCategory.filter(pc => searchProjectsByTitle.some(pt => pc.id === pt.id)).map((project, key) => {
 						if (location.pathname === "/" && key < 6)
 							return <ProjectSingle
-								demoURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.demoUrl}
-								codeURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.codeUrl}
+								demoURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.demoUrl}
+								codeURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.codeUrl}
 								title={project.title}
 								category={project.category}
 								image={project.img}
@@ -114,8 +114,8 @@ const ProjectsGrid = () => {
 							/>
 						else if (location.pathname === "/projects")
 							return <ProjectSingle
-								demoURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.demoUrl}
-								codeURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.codeUrl}
+								demoURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.demoUrl}
+								codeURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.codeUrl}
 								title={project.title}
 								category={project.category}
 								image={project.img}
@@ -126,8 +126,8 @@ const ProjectsGrid = () => {
 						? selectProjectsByCategory.map((project, key) => {
 							if (location.pathname === "/" && key < 6)
 								return <ProjectSingle
-									demoURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.demoUrl}
-									codeURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.codeUrl}
+									demoURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.demoUrl}
+									codeURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.codeUrl}
 									title={project.title}
 									category={project.category}
 									image={project.img}
@@ -135,8 +135,8 @@ const ProjectsGrid = () => {
 								/>
 							else if (location.pathname === "/projects")
 								return <ProjectSingle
-									demoURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.demoUrl}
-									codeURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.codeUrl}
+									demoURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.demoUrl}
+									codeURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.codeUrl}
 									title={project.title}
 									category={project.category}
 									image={project.img}
@@ -147,8 +147,8 @@ const ProjectsGrid = () => {
 							? (searchProjectsByTitle.filter((obj, index, self) => self.findIndex((o) => o.title === obj.title) === index)).map((project, key) => {
 								if (location.pathname === "/" && key < 6)
 									return <ProjectSingle
-										demoURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.demoUrl}
-										codeURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.codeUrl}
+										demoURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.demoUrl}
+										codeURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.codeUrl}
 										title={project.title}
 										category={project.category}
 										image={project.img}
@@ -156,8 +156,8 @@ const ProjectsGrid = () => {
 									/>
 								else if (location.pathname === "/projects")
 									return <ProjectSingle
-										demoURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.demoUrl}
-										codeURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.codeUrl}
+										demoURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.demoUrl}
+										codeURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.codeUrl}
 										title={project.title}
 										category={project.category}
 										image={project.img}
@@ -167,8 +167,8 @@ const ProjectsGrid = () => {
 							: (projects.filter((obj, index, self) => self.findIndex((o) => o.title === obj.title) === index)).map((project, key) => {
 								if (location.pathname === "/" && key < 6)
 									return <ProjectSingle
-										demoURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.demoUrl}
-										codeURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.codeUrl}
+										demoURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.demoUrl}
+										codeURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.codeUrl}
 										title={project.title}
 										category={project.category}
 										image={project.img}
@@ -176,8 +176,8 @@ const ProjectsGrid = () => {
 									/>
 								else if (location.pathname === "/projects")
 									return <ProjectSingle
-										demoURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.demoUrl}
-										codeURL={(singleProjectData.find(p => p.id===project.id)).ProjectInfo.codeUrl}
+										demoURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.demoUrl}
+										codeURL={(singleProjectData.find(p => p.id.includes(project.id))).ProjectInfo.codeUrl}
 										title={project.title}
 										category={project.category}
 										image={project.img}
