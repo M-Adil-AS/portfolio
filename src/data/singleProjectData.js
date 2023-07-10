@@ -20,6 +20,9 @@ import Tetris4 from '../images/Tetris4.png';
 import _2048_2 from '../images/_2048_2.png';
 import _2048_3 from '../images/_2048_3.png';
 import _2048_4 from '../images/_2048_4.png';
+import Memory2 from '../images/Memory2.png';
+import Memory3 from '../images/Memory3.png';
+import Memory4 from '../images/Memory4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -277,6 +280,31 @@ let singleProjectRawData = [
 			Instructions: [
 				{id: 1, details: 'Arrow Keys to play the game'}
 			],
+		}
+	},
+
+	{
+		id:[113,114],
+		ProjectHeader: {title: 'Memory Cards', publishDate: 'June 28, 2020', tags: 'Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Memory Cards', img: Memory2},
+			{id: 2, title: 'Memory Cards', img: Memory3},
+			{id: 3, title: 'Memory Cards', img: Memory4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build Memory Cards Browser Game',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Memory-Card",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Memory-Card",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A Browser 2D Game built using JavaScript.'},
+				{id: 2, details: "The game consists of a deck of cards with pairs of images or symbols hidden on the back. Players take turns flipping two cards at a time, trying to find matching pairs. If the cards don't match, they are flipped back over, and the player's task is to remember their positions for future turns."},
+				{id: 3, details: "The objective of the Memory Card Game is to successfully match all the pairs in the shortest amount of time."}
+			]
 		}
 	},
 

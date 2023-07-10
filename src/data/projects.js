@@ -6,6 +6,7 @@ import Clustering1 from '../images/Clustering1.png'
 import KNN1 from '../images/KNN1.png'
 import Tetris1 from '../images/Tetris1.png'
 import _2048_1 from '../images/_2048_1.png'
+import Memory1 from '../images/Memory1.png'
 
 export const projectsData = [
 	{
@@ -85,6 +86,18 @@ export const projectsData = [
 		title: '2048',
 		category: 'Problem Solving',
 		img: _2048_1,
+	},
+	{
+		id: 113,
+		title: 'Memory Cards',
+		category: 'Game Development',
+		img: Memory1,
+	},
+	{
+		id: 114,
+		title: 'Memory Cards',
+		category: 'Problem Solving',
+		img: Memory1,
 	},
 
 
