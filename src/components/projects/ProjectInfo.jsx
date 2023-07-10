@@ -130,7 +130,26 @@ const ProjectInfo = () => {
 						</p>
 					);
 				})}
+
+				{onlyCurrentProject.ProjectInfo.Instructions && 
+					<div className='mt-10'>
+						<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-3">
+							Instructions
+						</p>
+						{onlyCurrentProject.ProjectInfo.Instructions.map((ins) => {
+							return (
+								<p
+									key={ins.id}
+									className="font-general-regular text-lg text-ternary-dark dark:text-ternary-light textJustify"
+								>
+									{ins.details}
+								</p>
+							);
+						})}
+					</div>
+				}
 			</div>
+
 		</div>
 	);
 };

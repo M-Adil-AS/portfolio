@@ -111,6 +111,12 @@ let singleProjectRawData = [
 				{id: 1, details: 'This project was inspired by the Android game Wordscapes. Wordscapes have hundreds of levels but those levels are hardcoded.'},
 				{id: 2, details: 'In this game, we get a random combination of 6 alphabets to make words from in limited time. Instead of being a hardcoded puzzle, the program generates a dynamic puzzle everytime using words from dictionary in a very short period of time (3 seconds average).'},
 			],
+			Instructions: [
+				{id: 1, details: 'Press Spacebar to submit word'},
+				{id: 2, details: 'Press Backspace to remove a letter'},
+				{id: 3, details: 'Press Enter to skip to next round'},
+				{id: 4, details: 'Press Esc to surrender'}
+			],
 		}
 	},
 
@@ -134,6 +140,9 @@ let singleProjectRawData = [
 			ProjectDetails: [
 				{id: 1, details: 'This game is built using HTML5 Canvas Element and Object Oriented Programming in JavaScript.'},
 				{id: 2, details: 'It makes use of concepts like infinite scrolling of game objects and background. The game gets more difficult to play with the increase in score value.'},
+			],
+			Instructions: [
+				{id: 1, details: 'ArrowUp to shoot, ArrowLeft and ArrowRight to move'}
 			],
 		}
 	},
@@ -183,6 +192,10 @@ let singleProjectRawData = [
 				{id: 1, details: 'An unsupervised machine learning classification algorithm implemented in JavaScript.'},
 				{id: 2, details: 'Chart.js is used to visualize how K-Means algorithm works. In this project, data points have two features RGB and WGB which relate to the medical data of patients. After the algorithm has finished executing, patients are divided into different groups based on clusters.'},
 			],
+			Instructions: [
+				{id: 1, details: 'Enter the value of K'},
+				{id: 2, details: "Press key 'Enter' to start the algorithm"},
+			],
 		}
 	},
 
@@ -231,6 +244,12 @@ let singleProjectRawData = [
 				{id: 1, details: 'A Browser 2D Game built using JavaScript.'},
 				{id: 2, details: 'Tetris is a classic puzzle video game that challenges players to manipulate falling blocks called Tetriminos to create complete horizontal lines. The goal is to clear as many lines as possible to earn points and prevent the stack of blocks from reaching the top of the playing field.'},
 			],
+			Instructions: [
+				{id: 1, details: 'Press ArrowLeft & ArrowRight to move block'},
+				{id: 2, details: 'Press ArrowDown to speed up'},
+				{id: 3, details: 'Press Spacebar to hard drop'},
+				{id: 4, details: 'Press ArrowUp to rotate block'}
+			],
 		}
 	},
 
@@ -254,6 +273,9 @@ let singleProjectRawData = [
 			ProjectDetails: [
 				{id: 1, details: 'A Browser 2D Game built using JavaScript.'},
 				{id: 2, details: '2048 is a popular puzzle game where players slide numbered tiles on a grid to combine them and reach the ultimate goal of creating a tile with a value of 2048. Each move combines adjacent tiles of the same number, doubling their value. The challenge lies in strategically planning the moves to create larger tiles and prevent the grid from filling up.'},
+			],
+			Instructions: [
+				{id: 1, details: 'Arrow Keys to play the game'}
 			],
 		}
 	},
