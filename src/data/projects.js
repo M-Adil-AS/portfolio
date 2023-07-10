@@ -4,6 +4,8 @@ import Crosswords1 from '../images/Crosswords 1.png'
 import Connectify1 from '../images/Connectify1.png';
 import Clustering1 from '../images/Clustering1.png'
 import KNN1 from '../images/KNN1.png'
+import Tetris1 from '../images/Tetris1.png'
+import _2048_1 from '../images/_2048_1.png'
 
 export const projectsData = [
 	{
@@ -59,6 +61,30 @@ export const projectsData = [
 		title: 'K Nearest Neighbor',
 		category: 'Problem Solving',
 		img: KNN1,
+	},
+	{
+		id: 109,
+		title: 'Tetris',
+		category: 'Game Development',
+		img: Tetris1,
+	},
+	{
+		id: 110,
+		title: 'Tetris',
+		category: 'Problem Solving',
+		img: Tetris1,
+	},
+	{
+		id: 111,
+		title: '2048',
+		category: 'Game Development',
+		img: _2048_1,
+	},
+	{
+		id: 112,
+		title: '2048',
+		category: 'Problem Solving',
+		img: _2048_1,
 	},
 
 

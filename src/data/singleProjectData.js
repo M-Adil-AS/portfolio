@@ -14,6 +14,12 @@ import Clustering4 from '../images/Clustering4.png';
 import KNN2 from '../images/KNN2.png';
 import KNN3 from '../images/KNN3.png';
 import KNN4 from '../images/KNN4.png';
+import Tetris2 from '../images/Tetris2.png';
+import Tetris3 from '../images/Tetris3.png';
+import Tetris4 from '../images/Tetris4.png';
+import _2048_2 from '../images/_2048_2.png';
+import _2048_3 from '../images/_2048_3.png';
+import _2048_4 from '../images/_2048_4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -204,7 +210,53 @@ let singleProjectRawData = [
 		}
 	},
 
+	{
+		id:[109,110],
+		ProjectHeader: {title: 'Tetris', publishDate: 'Oct 10, 2021', tags: 'Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Tetris', img: Tetris2},
+			{id: 2, title: 'Tetris', img: Tetris3},
+			{id: 3, title: 'Tetris', img: Tetris4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build Tetris Browser Game having all main features',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Tetris",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Tetris",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A Browser 2D Game built using JavaScript.'},
+				{id: 2, details: 'Tetris is a classic puzzle video game that challenges players to manipulate falling blocks called Tetriminos to create complete horizontal lines. The goal is to clear as many lines as possible to earn points and prevent the stack of blocks from reaching the top of the playing field.'},
+			],
+		}
+	},
 
+	{
+		id:[111,112],
+		ProjectHeader: {title: '2048', publishDate: 'Aug 28, 2022', tags: 'Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: '2048', img: _2048_2},
+			{id: 2, title: '2048', img: _2048_3},
+			{id: 3, title: '2048', img: _2048_4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build 2048 Browser Game',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/2048",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/2048",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A Browser 2D Game built using JavaScript.'},
+				{id: 2, details: '2048 is a popular puzzle game where players slide numbered tiles on a grid to combine them and reach the ultimate goal of creating a tile with a value of 2048. Each move combines adjacent tiles of the same number, doubling their value. The challenge lies in strategically planning the moves to create larger tiles and prevent the grid from filling up.'},
+			],
+		}
+	},
 
 
 
