@@ -395,7 +395,7 @@ let singleProjectRawData = [
 				{id: 3, details: "The player controls a small bird that constantly moves forward in a horizontal direction. The game environment consists of pipes arranged vertically with gaps in between. The pipes appear at regular intervals, and the bird must pass through the gaps to score points. If the bird touches the pipes or the ground, the game ends."}
 			],
 			Instructions: [
-				{id: 1, details: 'The game is not responsive. Adjust the browser screen size so that SCORE is displayed in the middle of the screen.'},
+				{id: 1, details: 'The game is not responsive. Adjust the browser screen zoom % so that SCORE is displayed in the middle of the screen.'},
 				{id: 2, details: "Press 'Spacebar' to start the game and to jump..."}
 			],
 		}
