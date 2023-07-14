@@ -7,6 +7,9 @@ import KNN1 from '../images/KNN1.png'
 import Tetris1 from '../images/Tetris1.png'
 import _2048_1 from '../images/_2048_1.png'
 import Memory1 from '../images/Memory1.png'
+import Maze1 from '../images/Maze1.png'
+import Pacman1 from '../images/Pacman1.png'
+import Flappy1 from '../images/Flappy1.png'
 
 export const projectsData = [
 	{
@@ -98,6 +101,42 @@ export const projectsData = [
 		title: 'Memory Cards',
 		category: 'Problem Solving',
 		img: Memory1,
+	},
+	{
+		id: 115,
+		title: 'Maze Problem',
+		category: 'Artificial Intelligence',
+		img: Maze1,
+	},
+	{
+		id: 116,
+		title: 'Maze Problem',
+		category: 'Problem Solving',
+		img: Maze1,
+	},
+	{
+		id: 117,
+		title: 'Pacman',
+		category: 'Game Development',
+		img: Pacman1,
+	},
+	{
+		id: 118,
+		title: 'Pacman',
+		category: 'Problem Solving',
+		img: Pacman1,
+	},
+	{
+		id: 119,
+		title: 'Flappy Bird',
+		category: 'Game Development',
+		img: Flappy1,
+	},
+	{
+		id: 120,
+		title: 'Flappy Bird',
+		category: 'Problem Solving',
+		img: Flappy1,
 	},
 
 

@@ -23,6 +23,15 @@ import _2048_4 from '../images/_2048_4.png';
 import Memory2 from '../images/Memory2.png';
 import Memory3 from '../images/Memory3.png';
 import Memory4 from '../images/Memory4.png';
+import Maze2 from '../images/Maze2.png';
+import Maze3 from '../images/Maze3.png';
+import Maze4 from '../images/Maze4.png';
+import Pacman2 from '../images/Pacman2.png';
+import Pacman3 from '../images/Pacman3.png';
+import Pacman4 from '../images/Pacman4.png';
+import Flappy2 from '../images/Flappy2.png';
+import Flappy3 from '../images/Flappy3.png';
+import Flappy4 from '../images/Flappy4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -305,6 +314,90 @@ let singleProjectRawData = [
 				{id: 2, details: "The game consists of a deck of cards with pairs of images or symbols hidden on the back. Players take turns flipping two cards at a time, trying to find matching pairs. If the cards don't match, they are flipped back over, and the player's task is to remember their positions for future turns."},
 				{id: 3, details: "The objective of the Memory Card Game is to successfully match all the pairs in the shortest amount of time."}
 			]
+		}
+	},
+
+	{
+		id:[115,116],
+		ProjectHeader: {title: 'Maze Problem', publishDate: 'June 4, 2020', tags: 'AI - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Maze Problem', img: Maze2},
+			{id: 2, title: 'Maze Problem', img: Maze3},
+			{id: 3, title: 'Maze Problem', img: Maze4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To solve Maze Problem using AI Search Algorithms',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/AI-Search",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/AI-Search",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'Implementation of A*, DFS, BFS, GBFS search algorithms using JavaScript.'},
+				{id: 2, details: "This project helps to understand how these algorithms work and how do they compare to each other. The program applies these algorithms to find solution of different mazes."},
+				{id: 3, details: "'I' represents the initial state/node whereas 'G' represents the goal state/node."}
+			],
+			Instructions: [
+				{id: 1, details: 'Enter Maze No: 1 OR 2 OR 3'},
+				{id: 2, details: 'Show Solution OR Explored Nodes (S OR E)'},
+				{id: 3, details: 'Enter Algorithm No: 1. A*, 2. BFS, 3. DFS, 4.GBFS'}
+			],
+		}
+	},
+
+	{
+		id:[117,118],
+		ProjectHeader: {title: 'Pacman', publishDate: 'April 4, 2022', tags: 'Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Pacman', img: Pacman2},
+			{id: 2, title: 'Pacman', img: Pacman3},
+			{id: 3, title: 'Pacman', img: Pacman4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build Pacman Game having all core functionalities',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Pacman",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Pacman",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A clone of Pacman Game using JavaScript.'},
+				{id: 2, details: "Each ghost in the game has a unique behaviour determined by its AI."},
+				{id: 3, details: "Each ghost behaves differently in each of the four modes: Chase, Scatter, Fear, Eaten"}
+			]
+		}
+	},
+
+	{
+		id:[119,120],
+		ProjectHeader: {title: 'Flappy Bird', publishDate: 'July 24, 2021', tags: 'Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Flappy Bird', img: Flappy2},
+			{id: 2, title: 'Flappy Bird', img: Flappy3},
+			{id: 3, title: 'Flappy Bird', img: Flappy4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build Flappy Bird Browser Game',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Flappy-Bird",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Flappy-Bird",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'Flappy Bird Game built using JavaScript'},
+				{id: 2, details: "It makes use of concepts like infinite scrolling of game objects and background."},
+				{id: 3, details: "The player controls a small bird that constantly moves forward in a horizontal direction. The game environment consists of pipes arranged vertically with gaps in between. The pipes appear at regular intervals, and the bird must pass through the gaps to score points. If the bird touches the pipes or the ground, the game ends."}
+			],
+			Instructions: [
+				{id: 1, details: 'The game is not responsive. Adjust the browser screen size so that SCORE is displayed in the middle of the screen.'},
+				{id: 2, details: "Press 'Spacebar' to start the game and to jump..."}
+			],
 		}
 	},
 
