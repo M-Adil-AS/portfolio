@@ -32,6 +32,12 @@ import Pacman4 from '../images/Pacman4.png';
 import Flappy2 from '../images/Flappy2.png';
 import Flappy3 from '../images/Flappy3.png';
 import Flappy4 from '../images/Flappy4.png';
+import Piano2 from '../images/Piano2.png';
+import Piano3 from '../images/Piano3.png';
+import Piano4 from '../images/Piano4.png';
+import Crack2 from '../images/Crack2.png';
+import Crack3 from '../images/Crack3.png';
+import Crack4 from '../images/Crack4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -398,6 +404,57 @@ let singleProjectRawData = [
 				{id: 1, details: 'The game is not responsive. Adjust the browser screen zoom % so that SCORE is displayed in the middle of the screen.'},
 				{id: 2, details: "Press 'Spacebar' to start the game and to jump..."}
 			],
+		}
+	},
+
+	{
+		id:[121],
+		ProjectHeader: {title: 'Keyboard Piano', publishDate: 'Jan 08, 2021', tags: 'Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Keyboard Piano', img: Piano2},
+			{id: 2, title: 'Keyboard Piano', img: Piano3},
+			{id: 3, title: 'Keyboard Piano', img: Piano4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'Develop a Keyboard Piano program that provides a virtual musical experience',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Keyboard-Piano",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Keyboard-Piano",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript', 'Tone JS']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'The program allows users to play and create music using their computer keyboard.'},
+				{id: 2, details: "It aims to simulate a genuine piano-playing experience while promoting creativity and musical exploration."}
+			],
+			Instructions: [
+				{id: 1, details: 'White Notes (From Tab Key to Backslash Key)'},
+				{id: 2, details: "Black Notes (From Exclamation Key to Backspace Key)"}
+			],
+		}
+	},
+
+	{
+		id:[122],
+		ProjectHeader: {title: 'Crack the Code', publishDate: 'April 27, 2020', tags: 'Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Crack the Code', img: Crack2},
+			{id: 2, title: 'Crack the Code', img: Crack3},
+			{id: 3, title: 'Crack the Code', img: Crack4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To find the Code which satisfies the given five conditions',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Crack-the-Code",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Crack-the-Code",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A personal project inspired by a famous puzzle. Instead of hardcoded values, we can input dynamic values and the algorithm is able to solve the riddle.'}
+			]
 		}
 	},
 

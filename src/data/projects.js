@@ -10,6 +10,8 @@ import Memory1 from '../images/Memory1.png'
 import Maze1 from '../images/Maze1.png'
 import Pacman1 from '../images/Pacman1.png'
 import Flappy1 from '../images/Flappy1.png'
+import Piano1 from '../images/Piano1.png'
+import Crack1 from '../images/Crack1.png'
 
 export const projectsData = [
 	{
@@ -137,6 +139,18 @@ export const projectsData = [
 		title: 'Flappy Bird',
 		category: 'Problem Solving',
 		img: Flappy1,
+	},
+	{
+		id: 121,
+		title: 'Keyboard Piano',
+		category: 'Problem Solving',
+		img: Piano1,
+	},
+	{
+		id: 122,
+		title: 'Crack the Code',
+		category: 'Problem Solving',
+		img: Crack1,
 	},
 
 
