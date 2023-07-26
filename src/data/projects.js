@@ -12,6 +12,7 @@ import Pacman1 from '../images/Pacman1.png'
 import Flappy1 from '../images/Flappy1.png'
 import Piano1 from '../images/Piano1.png'
 import Crack1 from '../images/Crack1.png'
+import Ping1 from '../images/Ping1.png'
 
 export const projectsData = [
 	{
@@ -151,6 +152,18 @@ export const projectsData = [
 		title: 'Crack the Code',
 		category: 'Problem Solving',
 		img: Crack1,
+	},
+	{
+		id: 123,
+		title: 'Ping Pong',
+		category: 'Game Development',
+		img: Ping1,
+	},
+	{
+		id: 124,
+		title: 'Ping Pong',
+		category: 'Problem Solving',
+		img: Ping1,
 	},
 
 

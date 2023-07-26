@@ -38,6 +38,9 @@ import Piano4 from '../images/Piano4.png';
 import Crack2 from '../images/Crack2.png';
 import Crack3 from '../images/Crack3.png';
 import Crack4 from '../images/Crack4.png';
+import Ping2 from '../images/Ping2.png';
+import Ping3 from '../images/Ping3.png';
+import Ping4 from '../images/Ping4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -455,6 +458,33 @@ let singleProjectRawData = [
 			ProjectDetails: [
 				{id: 1, details: 'A personal project inspired by a famous puzzle. Instead of hardcoded values, we can input dynamic values and the algorithm is able to solve the riddle.'}
 			]
+		}
+	},
+
+	{
+		id:[123,124],
+		ProjectHeader: {title: 'Ping Pong', publishDate: 'Sept 11, 2021', tags: 'Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Ping Pong', img: Ping2},
+			{id: 2, title: 'Ping Pong', img: Ping3},
+			{id: 3, title: 'Ping Pong', img: Ping4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build Ping Pong Game in which player plays against AI',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Ping-Pong",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Ping-Pong",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'A 2D ping pong video game with AI as the opponent brings the classic table tennis sport to the digital gaming world.'},
+				{id: 2, details: "Players can enjoy the fast-paced gameplay, trying to anticipate the ball's trajectory and use precise timing to make skillful shots."}
+			],
+			Instructions: [
+				{id: 1, details: "Move Paddle by pressing and holding down keys 'W' and 'S'"}
+			],
 		}
 	},
 
