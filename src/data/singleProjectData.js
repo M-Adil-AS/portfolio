@@ -41,6 +41,9 @@ import Crack4 from '../images/Crack4.png';
 import Ping2 from '../images/Ping2.png';
 import Ping3 from '../images/Ping3.png';
 import Ping4 from '../images/Ping4.png';
+import EPuzzle2 from '../images/8Puzzle2.png';
+import EPuzzle3 from '../images/8Puzzle3.png';
+import EPuzzle4 from '../images/8Puzzle4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -488,7 +491,33 @@ let singleProjectRawData = [
 		}
 	},
 
-
+	{
+		id:[125,126],
+		ProjectHeader: {title: '8 Puzzle', publishDate: 'April 25, 2022', tags: 'AI - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: '8 Puzzle', img: EPuzzle2},
+			{id: 2, title: '8 Puzzle', img: EPuzzle3},
+			{id: 3, title: '8 Puzzle', img: EPuzzle4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To solve 8 puzzle problem optimally using A* algorithm',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/8-Puzzle",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/8-Puzzle",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'The 8-puzzle problem is a classic sliding puzzle that is based on rearranging a 3x3 grid of numbered tiles by sliding them into an empty space. The objective is to reach the goal state from a given initial configuration, using the fewest possible moves.'},
+				{id: 2, details: "In this project, A* search algorithm is used to solve this problem. A* algorithm intelligently explores possible moves by considering both the cost of reaching a certain state and an admissible heuristic that estimates the remaining distance to the goal state."}
+			],
+			Instructions: [
+				{id: 1, details: "Click on the browser screen to start the algorithm."},
+				{id: 2, details: "If Alert Message pops up, it means that the initial state is not solvable. Click OK to refresh and start with a new random initial state."}
+			],
+		}
+	},
 
 
 

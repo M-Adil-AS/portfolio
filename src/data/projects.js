@@ -13,8 +13,27 @@ import Flappy1 from '../images/Flappy1.png'
 import Piano1 from '../images/Piano1.png'
 import Crack1 from '../images/Crack1.png'
 import Ping1 from '../images/Ping1.png'
+import EPuzzle1 from '../images/8Puzzle1.png'
 
-export const projectsData = [
+const customSort = (a, b) => {
+	const customOrder = [104, 100, 101, 115, 116, 102, 103, 105, 106, 117, 118, 125, 126, 119, 120, 109, 110, 107, 108, 111, 112, 
+		113, 114, 123, 124, 121, 122
+	]; 
+	const indexA = customOrder.indexOf(a.id);
+	const indexB = customOrder.indexOf(b.id);
+  
+	if (indexA === -1) {
+	  return 1; 
+	}
+	
+	if (indexB === -1) {
+	  return -1; 
+	}
+  
+	return indexA - indexB; 
+};
+
+let projectsDataUnsorted = [
 	{
 		id: 100,
 		title: 'Crosswords',
@@ -165,6 +184,18 @@ export const projectsData = [
 		category: 'Problem Solving',
 		img: Ping1,
 	},
+	{
+		id: 125,
+		title: '8 Puzzle',
+		category: 'Artificial Intelligence',
+		img: EPuzzle1,
+	},
+	{
+		id: 126,
+		title: '8 Puzzle',
+		category: 'Problem Solving',
+		img: EPuzzle1,
+	},
 
 
 	// {
@@ -210,3 +241,5 @@ export const projectsData = [
 	// 	img: UIImage2,
 	// },
 ];
+
+export const projectsData = projectsDataUnsorted.sort(customSort);

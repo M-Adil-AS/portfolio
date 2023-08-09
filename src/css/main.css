@@ -756,7 +756,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .bg-gray-50 {
   --tw-bg-opacity: 1;
-  background-color: rgb(246 247 248 / var(--tw-bg-opacity));
+  background-color: rgb(241 242 243 / var(--tw-bg-opacity));
 }
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
@@ -935,6 +935,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(146 153 165 / var(--tw-text-opacity));
+}
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
@@ -992,7 +996,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(238 239 241 / var(--tw-bg-opacity));
 }
 .hover\:text-indigo-500:hover {
   --tw-text-opacity: 1;
