@@ -9,12 +9,14 @@ const ProjectGallery = ({activeTheme}) => {
 			{onlyCurrentProject.ProjectImages.map((project) => {
 				return (
 					<div className="mb-10 sm:mb-0" key={project.id}>
-						<img
-							src={project.img}
-							className={`rounded-xl cursor-pointer ${activeTheme=='dark' ? 'border border-grey-500' : ''}`}
-							alt={project.title}
-							key={project.id}
-						/>
+						<a href={project.img} target="_blank">
+							<img
+								src={project.img}
+								className={`rounded-xl cursor-pointer ${activeTheme=='dark' ? 'border border-grey-500' : ''}`}
+								alt={project.title}
+								key={project.id}
+							/>
+						</a>
 					</div>
 				);
 			})}

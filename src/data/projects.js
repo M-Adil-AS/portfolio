@@ -14,9 +14,10 @@ import Piano1 from '../images/Piano1.png'
 import Crack1 from '../images/Crack1.png'
 import Ping1 from '../images/Ping1.png'
 import EPuzzle1 from '../images/8Puzzle1.png'
+import Perceptron1 from '../images/Perceptron1.png'
 
 const customSort = (a, b) => {
-	const customOrder = [104, 100, 101, 115, 116, 102, 103, 105, 106, 117, 118, 125, 126, 119, 120, 109, 110, 107, 108, 111, 112, 
+	const customOrder = [104, 100, 101, 115, 116, 102, 103, 105, 106, 117, 118, 125, 126, 119, 120, 127, 128, 109, 110, 107, 108, 111, 112, 
 		113, 114, 123, 124, 121, 122
 	]; 
 	const indexA = customOrder.indexOf(a.id);
@@ -195,6 +196,18 @@ let projectsDataUnsorted = [
 		title: '8 Puzzle',
 		category: 'Problem Solving',
 		img: EPuzzle1,
+	},
+	{
+		id: 127,
+		title: 'Perceptron Learning',
+		category: 'Artificial Intelligence',
+		img: Perceptron1,
+	},
+	{
+		id: 128,
+		title: 'Perceptron Learning',
+		category: 'Problem Solving',
+		img: Perceptron1,
 	},
 
 

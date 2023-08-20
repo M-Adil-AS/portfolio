@@ -44,6 +44,9 @@ import Ping4 from '../images/Ping4.png';
 import EPuzzle2 from '../images/8Puzzle2.png';
 import EPuzzle3 from '../images/8Puzzle3.png';
 import EPuzzle4 from '../images/8Puzzle4.png';
+import Perceptron2 from '../images/Perceptron2.png';
+import Perceptron3 from '../images/Perceptron3.png';
+import Perceptron4 from '../images/Perceptron4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -185,7 +188,7 @@ let singleProjectRawData = [
 			CodeUrlHeading: "Code",
 			codeUrl: "https://github.com/M-Adil-AS/Connectify",
 			demoUrlHeading: "Demo",
-			demoUrl: "https://connectify-production.up.railway.app/",
+			demoUrl: "https://drive.google.com/file/d/1klF4rYgar6jXCH0wyQdRtzDPzpXtS6iz/view?usp=drive_link",
 			Technologies: [{title: 'Tools & Technologies', techs: ['Express.js', 'Node.js', 'Socket.io', 'EJS', 'CSS', 'Bootstrap', 'JavaScript']}],
 			ProjectDetailsHeading: 'Description',
 			ProjectDetails: [
@@ -516,6 +519,30 @@ let singleProjectRawData = [
 				{id: 1, details: "Click on the browser screen to start the algorithm."},
 				{id: 2, details: "If Alert Message pops up, it means that the initial state is not solvable. Click OK to refresh and start with a new random initial state."}
 			],
+		}
+	},
+
+	{
+		id:[127,128],
+		ProjectHeader: {title: 'Perceptron Learning', publishDate: 'June 22, 2020', tags: 'AI - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Perceptron Learning', img: Perceptron2},
+			{id: 2, title: 'Perceptron Learning', img: Perceptron3},
+			{id: 3, title: 'Perceptron Learning', img: Perceptron4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To implement Perceptron Learning Algorithm and visualize using graph',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Perceptron-Learning",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Perceptron-Learning",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript', 'Chart.JS']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'Assign a weight to each input dimension. Go through the data points multiple times and adjust the weights value by considering the difference between actual value and estimate value (hypothesis function).'},
+				{id: 2, details: "We constantly try to figure out whether we need to shift a weight value in order to better create some weight vector that is more accurately able to try to estimate what the output should be."}
+			]
 		}
 	},
 
