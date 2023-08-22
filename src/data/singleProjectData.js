@@ -47,6 +47,9 @@ import EPuzzle4 from '../images/8Puzzle4.png';
 import Perceptron2 from '../images/Perceptron2.png';
 import Perceptron3 from '../images/Perceptron3.png';
 import Perceptron4 from '../images/Perceptron4.png';
+import FYP2 from '../images/FYP2.png';
+import FYP3 from '../images/FYP3.png';
+import FYP4 from '../images/FYP4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -542,6 +545,48 @@ let singleProjectRawData = [
 			ProjectDetails: [
 				{id: 1, details: 'Assign a weight to each input dimension. Go through the data points multiple times and adjust the weights value by considering the difference between actual value and estimate value (hypothesis function).'},
 				{id: 2, details: "We constantly try to figure out whether we need to shift a weight value in order to better create some weight vector that is more accurately able to try to estimate what the output should be."}
+			]
+		}
+	},
+
+	{
+		id:[129,130],
+		ProjectHeader: {title: 'Computer Vision assisted Drive Thru Web Store with On chain Transactions', publishDate: 'Aug 16, 2023', tags: 'Web Application - AI'},
+		ProjectImages: [
+			{id: 1, title: 'Computer Vision assisted Drive Thru Web Store with On chain Transactions', img: FYP2},
+			{id: 2, title: 'Computer Vision assisted Drive Thru Web Store with On chain Transactions', img: FYP3},
+			{id: 3, title: 'Computer Vision assisted Drive Thru Web Store with On chain Transactions', img: FYP4},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Name',
+					details: 'NED University of Engineering and Technology',
+				},
+				{
+					id: 2,
+					title: 'Website',
+					details: 'https://www.neduet.edu.pk/',
+				}
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To find and develop a solution which reduces the waiting time of drive thru store customers, enhances staff efficiency and secures transaction data in decentralized storage.',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Computer-Vision-assisted-Drive-Thru-Web-Store-with-On-chain-Transactions",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://youtu.be/EJOKy73AlrI",
+			Technologies: [{title: 'Tools & Technologies', techs: ['Node JS', 'Mongo DB', 'EJS', 'Express JS', 'Flask', 'Bootstrap', 'CSS', 'JS', 'Ngrok', 'Axios', 'Plotly', 'IP Camera', 'Carmen Mobile Application', 'Ethereum', 'Meta Mask', 'Ethers', 'Tether', 'PayPal', 'Statsmodel']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'Problem: In today’s world, people are busier than ever and the conventional model of drive-thru in which orders are placed using a microphone and picked up at the window, has become obsolete. The main problem with this model is that during peak hours, the long line of cars waiting to drive through cause traffic disruptions, delays, and disorder. Furthermore, many problems like delayed payments, high fees and frozen accounts surround most of centralized transaction platforms like PayPal. These online platforms have a single point of failure and also, the transaction data is mutable and not completely secure.'},
+				{id: 2, details: "Solution: To reduce the waiting time of customers and to increase employee productivity, our project utilizes Automatic Number Plate Recognition technology that can be used to notify the store staff of an incoming customer beforehand. To overcome problems like data insecurity and high fees, our system uses on-chain transactions involving decentralized storage of data which allows for secure and tamper-proof record-keeping of transactions."},
+				{id: 3, details: "Step one: Customers place the order online and pay in crypto through a metawallet such as metamask."},
+				{id: 4, details: "Step two: After the transaction has been verified, a task to assemble the order is created in the database. This task is assigned to an assembler employee. Assemblers pack all the order items together and mark the task as completed."},
+				{id: 5, details: "Step three: Once the order has been assembled, customers are informed to pick up their order. ANPR camera is installed at a distance of a few minutes from pick-up point. The camera detects the car’s license plate and ANPR data is generated that can be automatically connected to the relevant order ID stored in the database. Upon this trigger, another task to deliver the order is created and assigned to a carrier employee."},
+				{id: 6, details: "Step four: Carrier identifies the customer's vehicle by reading ANPR data within the web application and loads the shopping bags in the car’s trunk. Finally, the customer is required to confirm the delivery."},
+				{id: 7, details: "Application Features: Employee Registration by Admin. Admin can update the employee’s role to suit the changing needs of the business. Admin has access to view the current status of employees, their attendance, the tasks assigned to each of them and the duration they took to complete those tasks. In case of an unsuccessful ANPR recognition, customers can manually notify the store staff on the app. An efficient task management system which is based on first-come, first-served principle. Automatic updates via Server Sent Events eliminate manual refresh to load new tasks. Work-load is balanced on all employees by the system. Furthermore, Admin can transfer tasks of an employee to other employees to maintain continuity of business in case of unplanned events. Attendance sheet that can be used by Admin to calculate the employee’s pay based on work hours given by them. Report Charts for Admin. Forecasting Sales using Time Series algorithms. Inventory Management. Recommending Products to Customers. Notifications generated for Admin."}
 			]
 		}
 	},
