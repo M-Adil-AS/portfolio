@@ -16,9 +16,10 @@ import Ping1 from '../images/Ping1.png'
 import EPuzzle1 from '../images/8Puzzle1.png'
 import Perceptron1 from '../images/Perceptron1.png'
 import FYP1 from '../images/FYP1.png'
+import interVU1 from '../images/interVU1.png'
 
 const customSort = (a, b) => {
-	const customOrder = [129, 130, 104, 100, 101, 115, 116, 102, 103, 105, 106, 117, 118, 125, 126, 119, 120, 127, 128, 109, 110, 107, 108, 111, 112, 
+	const customOrder = [129, 130, 131, 104, 100, 101, 115, 116, 102, 103, 105, 106, 117, 118, 125, 126, 119, 120, 127, 128, 109, 110, 107, 108, 111, 112, 
 		113, 114, 123, 124, 121, 122
 	]; 
 	const indexA = customOrder.indexOf(a.id);
@@ -221,6 +222,12 @@ let projectsDataUnsorted = [
 		title: 'Computer Vision assisted Drive Thru Web Store with On chain Transactions',
 		category: 'Artificial Intelligence',
 		img: FYP1,
+	},
+	{
+		id: 131,
+		title: 'interVU',
+		category: 'Web Application',
+		img: interVU1,
 	},
 
 

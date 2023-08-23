@@ -50,6 +50,9 @@ import Perceptron4 from '../images/Perceptron4.png';
 import FYP2 from '../images/FYP2.png';
 import FYP3 from '../images/FYP3.png';
 import FYP4 from '../images/FYP4.png';
+import interVU2 from '../images/interVU2.png';
+import interVU3 from '../images/interVU3.png';
+import interVU4 from '../images/interVU4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -591,7 +594,30 @@ let singleProjectRawData = [
 		}
 	},
 
-
+	{
+		id:[131],
+		ProjectHeader: {title: 'interVU', publishDate: 'July 15, 2023', tags: 'Web Application'},
+		ProjectImages: [
+			{id: 1, title: 'interVU', img: interVU2},
+			{id: 2, title: 'interVU', img: interVU3},
+			{id: 3, title: 'interVU', img: interVU4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build a web application which allows users to keep track of all of their job interviews in one place',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/InterVU-backend",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://drive.google.com/file/d/1Or25iGQEBUF-OxT-zClzDiA6-eHNL1-y/view?usp=sharing",
+			Technologies: [{title: 'Tools & Technologies', techs: ['Node JS', 'Express JS', 'React JS', 'Next JS', 'Mongo DB', 'CSS', 'Tailwind UI', 'HTML', 'Chart JS']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'interVU is a cutting-edge web application designed to simplify and enhance your job interview experience. With interVU, you can effortlessly managae and organize all your job interviews in one centralized platform.'},
+				{id: 2, details: "The frontend is built on Next JS v13 (App Router). Proper Navigation (Authentication invalid - Routing Middleware) is applied on the frontend."},
+				{id: 3, details: "Proper authentication (HTTP only Cookie - JWT), authorization (demo user), middlewares and error-handling mechanism (async wrapper - HTTP Status Codes - Custom Error Classes) are put into practice in backend of the application."}
+			]
+		}
+	},
 
 
 
