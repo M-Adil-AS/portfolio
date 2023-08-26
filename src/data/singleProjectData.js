@@ -53,6 +53,9 @@ import FYP4 from '../images/FYP4.png';
 import interVU2 from '../images/interVU2.png';
 import interVU3 from '../images/interVU3.png';
 import interVU4 from '../images/interVU4.png';
+import ETL2 from '../images/ETL2.png';
+import ETL3 from '../images/ETL3.png';
+import ETL4 from '../images/ETL4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -195,7 +198,7 @@ let singleProjectRawData = [
 			codeUrl: "https://github.com/M-Adil-AS/Connectify",
 			demoUrlHeading: "Demo",
 			demoUrl: "https://drive.google.com/file/d/1klF4rYgar6jXCH0wyQdRtzDPzpXtS6iz/view?usp=drive_link",
-			Technologies: [{title: 'Tools & Technologies', techs: ['Express.js', 'Node.js', 'Socket.io', 'EJS', 'CSS', 'Bootstrap', 'JavaScript']}],
+			Technologies: [{title: 'Tools & Technologies', techs: ['Express.js', 'Node.js', 'MongoDB', 'Socket.io', 'EJS', 'CSS', 'Bootstrap', 'JavaScript', 'Axios']}],
 			ProjectDetailsHeading: 'Description',
 			ProjectDetails: [
 				{id: 1, details: 'A social networking application, incorporating features commonly found in social media platforms.'},
@@ -619,7 +622,32 @@ let singleProjectRawData = [
 		}
 	},
 
-
+	{
+		id:[132],
+		ProjectHeader: {title: 'ETL', publishDate: 'Aug 26, 2023', tags: 'Web Application'},
+		ProjectImages: [
+			{id: 1, title: 'ETL', img: ETL2},
+			{id: 2, title: 'ETL', img: ETL3},
+			{id: 3, title: 'ETL', img: ETL4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To implement ETL pipeline using Node JS streams and MongoDB',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/ETL-Project",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://drive.google.com/file/d/1q7BXTg1h_q6PIKDpyAEFbiCJZLskrkMt/view?usp=sharing",
+			Technologies: [{title: 'Tools & Technologies', techs: ['Node JS', 'Express JS', 'Mongo DB', 'CSS', 'Bootstrap', 'EJS', 'JSONStream', 'csv-parser', 'Axios', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: "This project demonstrates an ETL pipeline implemented using Node.JS Streams to ensure a memory-efficient data processing flow, particularly when dealing with large datasets. The pipeline's main goal is to gather data from diverse sources, transform it into a consistent format, and then load it into a MongoDB collection."},
+				{id: 2, details: "Step 1: Data is extracted from four distinct sources, including two APIs, a JSON file, and a CSV file. JSONStream and csv-parser libraries are employed to parse and transform JSON and CSV data."},
+				{id: 3, details: "Step 2: The extracted data streams are then transformed using a custom transform stream. The data transformation logic is applied to each chunk of data as it flows through the stream."},
+				{id: 4, details: "Step 3: In the loading phase, the transformed data is directly loaded into a MongoDB collection using the initializeUnorderedBulkOp method."},
+				{id: 5, details: "Furthermore, to allow the visitors to view the data stored in the MongoDB database, an API endpoint streams data chunks to the frontend, enabling the browser to process and present large datasets with improved responsiveness."}
+			]
+		}
+	},
 
 
 
