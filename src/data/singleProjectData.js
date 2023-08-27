@@ -616,8 +616,8 @@ let singleProjectRawData = [
 			ProjectDetailsHeading: 'Description',
 			ProjectDetails: [
 				{id: 1, details: 'interVU is a cutting-edge web application designed to simplify and enhance your job interview experience. With interVU, you can effortlessly managae and organize all your job interviews in one centralized platform.'},
-				{id: 2, details: "The frontend is built on Next JS v13 (App Router). Proper Navigation (Authentication invalid - Routing Middleware) is applied on the frontend."},
-				{id: 3, details: "Proper authentication (HTTP only Cookie - JWT), authorization (demo user), middlewares and error-handling mechanism (async wrapper - HTTP Status Codes - Custom Error Classes) are put into practice in backend of the application."}
+				{id: 2, details: "The frontend is built on Next JS v13 (App Router). Proper Navigation (Handling Invalid Authentication - Routing Middleware) is applied on the frontend."},
+				{id: 3, details: "Proper authentication (HTTP only Cookie - JWT), authorization (demo user), middlewares, error-handling mechanism (async wrapper - HTTP Status Codes - Custom Error Classes), and a few security features (XSS protection, HTTP headers, CORS, rateLimiter) are put into practice in backend of the application."}
 			]
 		}
 	},

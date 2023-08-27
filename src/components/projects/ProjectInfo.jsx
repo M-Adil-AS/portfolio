@@ -7,6 +7,36 @@ const ProjectInfo = () => {
 	return (
 		<div className="block sm:flex gap-0 sm:gap-10 mt-6 sm:mt-14">
 			<div className="w-full sm:w-1/3 text-left">
+				{/* Single project objectives */}
+				<div className="mb-7">
+					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
+						{onlyCurrentProject.ProjectInfo.ObjectivesHeading}
+					</p>
+					<p className="font-general-regular text-primary-dark dark:text-ternary-light textJustify">
+						{onlyCurrentProject.ProjectInfo.ObjectivesDetails}
+					</p>
+				</div>
+
+				{/* URL demo */}
+				<div className="mb-7">
+					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
+						{onlyCurrentProject.ProjectInfo.demoUrlHeading}
+					</p>
+					<a href={onlyCurrentProject.ProjectInfo.demoUrl} className="font-general-regular text-primary-dark dark:text-ternary-light hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300">
+						Project Preview
+					</a>
+				</div>
+
+				{/* URLs code */}
+				<div className="mb-7">
+					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
+						{onlyCurrentProject.ProjectInfo.CodeUrlHeading}
+					</p>
+					<a href={onlyCurrentProject.ProjectInfo.codeUrl} className="font-general-regular text-primary-dark dark:text-ternary-light hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300">
+						View Github Repository
+					</a>
+				</div>
+
 				{/* Single project client details */}
 				{ onlyCurrentProject.ProjectInfo.ClientHeading &&
 					<div className="mb-7">
@@ -42,39 +72,6 @@ const ProjectInfo = () => {
 						</ul>
 					</div>
 				}
-
-				{/* Single project objectives */}
-				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{onlyCurrentProject.ProjectInfo.ObjectivesHeading}
-					</p>
-					<p className="font-general-regular text-primary-dark dark:text-ternary-light textJustify">
-						{onlyCurrentProject.ProjectInfo.ObjectivesDetails}
-					</p>
-				</div>
-
-				{/* URLs code */}
-				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{onlyCurrentProject.ProjectInfo.CodeUrlHeading}
-					</p>
-					<a href={onlyCurrentProject.ProjectInfo.codeUrl} className="font-general-regular text-primary-dark dark:text-ternary-light hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300">
-						View Github Repository
-					</a>
-				</div>
-
-
-				{/* URL demo */}
-				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{onlyCurrentProject.ProjectInfo.demoUrlHeading}
-					</p>
-					<a href={onlyCurrentProject.ProjectInfo.demoUrl} className="font-general-regular text-primary-dark dark:text-ternary-light hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300">
-						Project Preview
-					</a>
-				</div>
-
-
 
 				{/* Single project technologies */}
 				<div className="mb-7">
