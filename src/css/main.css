@@ -1646,6 +1646,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   /* align-items: flex-end; */
 }
 
+.techSpan{
+  padding: 3px 10px;
+  margin-right: 7px;
+  margin-top: 3.5px;
+  margin-bottom: 3.5px;
+  border-radius: 15px;
+}
+
+.techContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media only screen and (max-width: 530px) {
   .searchbox-select{
     display: block;

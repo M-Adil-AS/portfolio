@@ -81,10 +81,16 @@ const ProjectInfo = () => {
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
 						{onlyCurrentProject.ProjectInfo.Technologies[0].title}
 					</p>
-					<p className="font-general-regular text-primary-dark dark:text-ternary-light textJustify">
+					{/* <p className="font-general-regular text-primary-dark dark:text-ternary-light textJustify">
 						{onlyCurrentProject.ProjectInfo.Technologies[0].techs.join(
 							', '
 						)}
+					</p> */}
+
+					<p className="font-general-regular text-primary-dark dark:text-ternary-light techContainer">
+						{onlyCurrentProject.ProjectInfo.Technologies[0].techs.map((tech, index) => {
+								return <span className='font-general-regular bg-ternary-light dark:bg-ternary-dark techSpan'>{tech}</span>
+						})}	
 					</p>
 				</div>
 
@@ -104,7 +110,7 @@ const ProjectInfo = () => {
 										aria-label="Share Project"
 										className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
 									>
-										<span className="text-lg lg:text-2xl">
+										<span className="text-xl lg:text-2xl">
 											{social.icon}
 										</span>
 									</a>

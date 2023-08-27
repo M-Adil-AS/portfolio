@@ -583,7 +583,7 @@ let singleProjectRawData = [
 			codeUrl: "https://github.com/M-Adil-AS/Computer-Vision-assisted-Drive-Thru-Web-Store-with-On-chain-Transactions",
 			demoUrlHeading: "Demo",
 			demoUrl: "https://youtu.be/EJOKy73AlrI",
-			Technologies: [{title: 'Tools & Technologies', techs: ['Node JS', 'Mongo DB', 'EJS', 'Express JS', 'Flask', 'Bootstrap', 'CSS', 'JS', 'Ngrok', 'Axios', 'Plotly', 'IP Camera', 'Carmen Mobile Application', 'Ethereum', 'Meta Mask', 'Ethers', 'Tether', 'PayPal', 'Statsmodel']}],
+			Technologies: [{title: 'Tools & Technologies', techs: ['Node JS', 'Mongo DB', 'EJS', 'Express JS', 'Flask', 'Bootstrap', 'CSS', 'JS', 'Ngrok', 'Axios', 'Plotly', 'IP Camera', 'Carmen Mobile App', 'Ethereum', 'Meta Mask', 'Ethers', 'Tether', 'PayPal', 'Statsmodel']}],
 			ProjectDetailsHeading: 'Description',
 			ProjectDetails: [
 				{id: 1, details: 'Problem: In today’s world, people are busier than ever and the conventional model of drive-thru in which orders are placed using a microphone and picked up at the window, has become obsolete. The main problem with this model is that during peak hours, the long line of cars waiting to drive through cause traffic disruptions, delays, and disorder. Furthermore, many problems like delayed payments, high fees and frozen accounts surround most of centralized transaction platforms like PayPal. These online platforms have a single point of failure and also, the transaction data is mutable and not completely secure.'},
