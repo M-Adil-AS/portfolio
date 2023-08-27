@@ -427,7 +427,7 @@ let singleProjectRawData = [
 
 	{
 		id:[121],
-		ProjectHeader: {title: 'Keyboard Piano', publishDate: 'Jan 08, 2021', tags: 'Problem Solving'},
+		ProjectHeader: {title: 'Keyboard Piano', publishDate: 'Jan 08, 2021', tags: 'Miscellaneous'},
 		ProjectImages: [
 			{id: 1, title: 'Keyboard Piano', img: Piano2},
 			{id: 2, title: 'Keyboard Piano', img: Piano3},

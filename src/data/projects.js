@@ -167,7 +167,7 @@ let projectsDataUnsorted = [
 	{
 		id: 121,
 		title: 'Keyboard Piano',
-		category: 'Problem Solving',
+		category: 'Miscellaneous',
 		img: Piano1,
 	},
 	{
