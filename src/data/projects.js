@@ -18,10 +18,11 @@ import Perceptron1 from '../images/Perceptron1.png'
 import FYP1 from '../images/FYP1.png'
 import interVU1 from '../images/interVU1.png'
 import ETL1 from '../images/ETL1.png'
+import SnakesLadders1 from '../images/SnakesLadders1.png'
 
 const customSort = (a, b) => {
 	const customOrder = [129, 130, 131, 104, 132, 100, 101, 115, 116, 102, 103, 105, 106, 117, 118, 125, 126, 119, 120, 127, 128, 109, 110, 107, 108, 111, 112, 
-		113, 114, 123, 124, 121, 122
+		133, 134, 113, 114, 123, 124, 121, 122
 	]; 
 	const indexA = customOrder.indexOf(a.id);
 	const indexB = customOrder.indexOf(b.id);
@@ -235,6 +236,18 @@ let projectsDataUnsorted = [
 		title: 'ETL',
 		category: 'Web Application',
 		img: ETL1,
+	},
+	{
+		id: 133,
+		title: 'Snakes and Ladders',
+		category: 'Game Development',
+		img: SnakesLadders1,
+	},
+	{
+		id: 134,
+		title: 'Snakes and Ladders',
+		category: 'Problem Solving',
+		img: SnakesLadders1,
 	},
 
 

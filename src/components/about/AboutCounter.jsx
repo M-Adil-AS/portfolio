@@ -5,7 +5,7 @@ const AboutCounter = () => {
 	useCountUp({ ref: 'experienceCounter', end: 5, duration: 2 });
 	useCountUp({ ref: 'githubStarsCounter', end: 4, duration: 2 });
 	useCountUp({ ref: 'feedbackCounter', end: 12, duration: 2 });
-	useCountUp({ ref: 'projectsCounter', end: 22, duration: 2 });
+	useCountUp({ ref: 'projectsCounter', end: 25, duration: 2 });
 
 	return (
 		<div className="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">

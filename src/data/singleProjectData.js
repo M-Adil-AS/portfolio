@@ -56,6 +56,9 @@ import interVU4 from '../images/interVU4.png';
 import ETL2 from '../images/ETL2.png';
 import ETL3 from '../images/ETL3.png';
 import ETL4 from '../images/ETL4.png';
+import SnakesLadders2 from '../images/SnakesLadders2.png';
+import SnakesLadders3 from '../images/SnakesLadders3.png';
+import SnakesLadders4 from '../images/SnakesLadders4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -646,6 +649,33 @@ let singleProjectRawData = [
 				{id: 4, details: "Step 3: In the loading phase, the transformed data is directly loaded into a MongoDB collection using the initializeUnorderedBulkOp method."},
 				{id: 5, details: "Furthermore, to allow the visitors to view the data stored in the MongoDB database, an API endpoint streams data chunks to the frontend, enabling the browser to process and present large datasets with improved responsiveness."}
 			]
+		}
+	},
+
+	{
+		id:[133,134],
+		ProjectHeader: {title: 'Snakes and Ladders', publishDate: 'Dec 03, 2023', tags: 'Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Snakes and Ladders', img: SnakesLadders2},
+			{id: 2, title: 'Snakes and Ladders', img: SnakesLadders3},
+			{id: 3, title: 'Snakes and Ladders', img: SnakesLadders4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build Snakes and Ladders Browser Game',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Snakes-and-Ladders",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Snakes-and-Ladders",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'One hundred squares full of traps and tricks. Roll the dice and try your luck! Ladders will take you up but Snakes will take you down!'},
+			],
+			Instructions: [
+				{id: 1, details: "Enter the no. of players."},
+				{id: 2, details: "Press 'S' to roll the dice."}
+			],
 		}
 	},
 
