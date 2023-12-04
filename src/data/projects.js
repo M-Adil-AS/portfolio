@@ -19,10 +19,11 @@ import FYP1 from '../images/FYP1.png'
 import interVU1 from '../images/interVU1.png'
 import ETL1 from '../images/ETL1.png'
 import SnakesLadders1 from '../images/SnakesLadders1.png'
+import Xenzea1 from '../images/Xenzea1.png'
 
 const customSort = (a, b) => {
 	const customOrder = [129, 130, 131, 104, 132, 100, 101, 115, 116, 102, 103, 105, 106, 117, 118, 125, 126, 119, 120, 127, 128, 109, 110, 107, 108, 111, 112, 
-		133, 134, 113, 114, 123, 124, 121, 122
+		133, 134, 113, 114, 123, 124, 135, 136, 121, 122
 	]; 
 	const indexA = customOrder.indexOf(a.id);
 	const indexB = customOrder.indexOf(b.id);
@@ -248,6 +249,18 @@ let projectsDataUnsorted = [
 		title: 'Snakes and Ladders',
 		category: 'Problem Solving',
 		img: SnakesLadders1,
+	},
+	{
+		id: 135,
+		title: 'Snake Xenzea',
+		category: 'Game Development',
+		img: Xenzea1,
+	},
+	{
+		id: 136,
+		title: 'Snake Xenzea',
+		category: 'Problem Solving',
+		img: Xenzea1,
 	},
 
 

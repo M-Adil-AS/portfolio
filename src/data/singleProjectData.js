@@ -59,6 +59,9 @@ import ETL4 from '../images/ETL4.png';
 import SnakesLadders2 from '../images/SnakesLadders2.png';
 import SnakesLadders3 from '../images/SnakesLadders3.png';
 import SnakesLadders4 from '../images/SnakesLadders4.png';
+import Xenzea2 from '../images/Xenzea2.png';
+import Xenzea3 from '../images/Xenzea3.png';
+import Xenzea4 from '../images/Xenzea4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -679,7 +682,32 @@ let singleProjectRawData = [
 		}
 	},
 
-
+	{
+		id:[135,136],
+		ProjectHeader: {title: 'Snake Xenzea', publishDate: 'Dec 03, 2020', tags: 'Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Snake Xenzea', img: Xenzea2},
+			{id: 2, title: 'Snake Xenzea', img: Xenzea3},
+			{id: 3, title: 'Snake Xenzea', img: Xenzea4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build Snake Xenzea Browser Game',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Snake-Xenzea",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Snake-Xenzea",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'The player must keep the snake from colliding with itself, which gets harder as the snake lengthens by eating food.'},
+			],
+			Instructions: [
+				{id: 1, details: "Adjust the browser screen zoom % as the game is not responsive."},
+				{id: 2, details: "Use Arrow keys to move the snake."}
+			],
+		}
+	},
 
 
 
