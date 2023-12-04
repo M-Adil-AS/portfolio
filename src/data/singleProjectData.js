@@ -703,8 +703,8 @@ let singleProjectRawData = [
 				{id: 1, details: 'The player must keep the snake from colliding with itself, which gets harder as the snake lengthens by eating food.'},
 			],
 			Instructions: [
-				{id: 1, details: "Adjust the browser screen zoom % as the game is not responsive."},
-				{id: 2, details: "Use Arrow keys to move the snake."}
+				{id: 1, details: "Adjust the browser screen zoom % as the game is not responsive"},
+				{id: 2, details: "Use Arrow keys to move the snake"}
 			],
 		}
 	},
