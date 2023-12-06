@@ -62,6 +62,9 @@ import SnakesLadders4 from '../images/SnakesLadders4.png';
 import Xenzea2 from '../images/Xenzea2.png';
 import Xenzea3 from '../images/Xenzea3.png';
 import Xenzea4 from '../images/Xenzea4.png';
+import SolarSystem2 from '../images/SolarSystem2.png';
+import SolarSystem3 from '../images/SolarSystem3.png';
+import SolarSystem4 from '../images/SolarSystem4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -705,6 +708,33 @@ let singleProjectRawData = [
 			Instructions: [
 				{id: 1, details: "Adjust the browser screen zoom % as the game is not responsive"},
 				{id: 2, details: "Use Arrow keys to move the snake"}
+			],
+		}
+	},
+
+	{
+		id:[137],
+		ProjectHeader: {title: 'Solar System', publishDate: 'Oct 10, 2021', tags: 'Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Solar System', img: SolarSystem2},
+			{id: 2, title: 'Solar System', img: SolarSystem3},
+			{id: 3, title: 'Solar System', img: SolarSystem4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To simulate Solar System',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Solar-System",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Solar-System",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'This simulation represents a simplified model of the solar system.'},
+				{id: 2, details: "It combines physics concepts such as circular motion, angular velocity, and trigonometry to create a visually appealing representation of celestial bodies in motion."}
+			],
+			Instructions: [
+				{id: 1, details: "Press Key: (1-5) to switch the background image."}
 			],
 		}
 	},
