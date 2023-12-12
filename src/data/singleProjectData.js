@@ -65,6 +65,9 @@ import Xenzea4 from '../images/Xenzea4.png';
 import SolarSystem2 from '../images/SolarSystem2.png';
 import SolarSystem3 from '../images/SolarSystem3.png';
 import SolarSystem4 from '../images/SolarSystem4.png';
+import Minimax2 from '../images/Minimax2.png';
+import Minimax3 from '../images/Minimax3.png';
+import Minimax4 from '../images/Minimax4.png';
 // Import icons
 import {
 	FiFacebook,
@@ -735,6 +738,30 @@ let singleProjectRawData = [
 			],
 			Instructions: [
 				{id: 1, details: "Press Key: (1-5) to switch the background image."}
+			],
+		}
+	},
+
+	{
+		id:[138, 139, 140],
+		ProjectHeader: {title: 'Tic Tac Toe', publishDate: 'Dec 10, 2023', tags: 'AI - Game Dev - Problem Solving'},
+		ProjectImages: [
+			{id: 1, title: 'Tic Tac Toe', img: Minimax2},
+			{id: 2, title: 'Tic Tac Toe', img: Minimax3},
+			{id: 3, title: 'Tic Tac Toe', img: Minimax4},
+		],
+		ProjectInfo: {
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: 'To build Tic Tac Toe game and implement Minimax Algorithm to enable Computer to play against Human',
+			CodeUrlHeading: "Code",
+			codeUrl: "https://github.com/M-Adil-AS/Tic-Tac-Toe",
+			demoUrlHeading: "Demo",
+			demoUrl: "https://m-adil-as.github.io/Tic-Tac-Toe",
+			Technologies: [{title: 'Tools & Technologies', techs: ['HTML', 'CSS', 'JavaScript']}],
+			ProjectDetailsHeading: 'Description',
+			ProjectDetails: [
+				{id: 1, details: 'This game not only provides a classic two-player mode but also offers a challenging single-player experience against AI opponent.'},
+				{id: 2, details: "Using the Minimax algorithm, the AI opponent ensures a formidable adversary, making every move strategically to either secure a victory or force a draw."}
 			],
 		}
 	},

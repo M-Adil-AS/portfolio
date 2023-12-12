@@ -21,10 +21,11 @@ import ETL1 from '../images/ETL1.png'
 import SnakesLadders1 from '../images/SnakesLadders1.png'
 import Xenzea1 from '../images/Xenzea1.png'
 import SolarSystem1 from '../images/SolarSystem1.png'
+import Minimax1 from '../images/Minimax1.png'
 
 const customSort = (a, b) => {
 	const customOrder = [129, 130, 131, 104, 132, 100, 101, 115, 116, 102, 103, 105, 106, 117, 118, 125, 126, 119, 120, 127, 128, 109, 110, 107, 108, 111, 112, 
-		133, 134, 113, 114, 123, 124, 137, 135, 136, 121, 122
+		138, 139, 140, 133, 134, 113, 114, 123, 124, 137, 135, 136, 121, 122
 	]; 
 	const indexA = customOrder.indexOf(a.id);
 	const indexB = customOrder.indexOf(b.id);
@@ -268,6 +269,24 @@ let projectsDataUnsorted = [
 		title: 'Solar System',
 		category: 'Problem Solving',
 		img: SolarSystem1,
+	},
+	{
+		id: 138,
+		title: 'Tic Tac Toe',
+		category: 'Artificial Intelligence',
+		img: Minimax1,
+	},
+	{
+		id: 139,
+		title: 'Tic Tac Toe',
+		category: 'Game Development',
+		img: Minimax1,
+	},
+	{
+		id: 140,
+		title: 'Tic Tac Toe',
+		category: 'Problem Solving',
+		img: Minimax1,
 	},
 
 
