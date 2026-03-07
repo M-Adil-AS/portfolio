@@ -71,6 +71,9 @@ import Minimax4 from "../images/Minimax4.png";
 import Sympos2 from "../images/Sympos2.png";
 import Sympos3 from "../images/Sympos3.png";
 import Sympos4 from "../images/Sympos4.png";
+import CSP2 from "../images/CSP2.png";
+import CSP3 from "../images/CSP3.png";
+import CSP4 from "../images/CSP4.png";
 // Import icons
 import {
   FiFacebook,
@@ -1316,6 +1319,82 @@ let singleProjectRawData = [
           id: 3,
           details:
             "Architected and bootstrapped the backend infrastructure from scratch using NestJS.",
+        },
+      ],
+    },
+  },
+
+  {
+    id: [143],
+    ProjectHeader: {
+      title: "Microsoft CSP Portal",
+      publishDate: "Jan 10, 2024",
+      tags: "Web Application",
+    },
+    ProjectImages: [
+      { id: 1, title: "Microsoft CSP Portal", img: CSP2 },
+      { id: 2, title: "Microsoft CSP Portal", img: CSP3 },
+      { id: 3, title: "Microsoft CSP Portal", img: CSP4 },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Company",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Systems Limited",
+        },
+        {
+          id: 2,
+          title: "Website",
+          details: "https://www.systemsltd.com/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To develop a portal for Microsoft CSP Partners with custom features",
+      demoUrlHeading: "Demo",
+      demoUrl: "https://symposai.com/",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "Azure Functions",
+            "Microsoft SQL Server",
+            "Node.js",
+            "React.js",
+            "Azure Blob Storage",
+            "Azure Key Vault",
+            "TypeScript",
+            "Zod",
+            "Material UI",
+            "SCSS",
+            "CSS3",
+            "Jira",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Description",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "A portal for Microsoft CSP partners, seamlessly integrated with Partner Center to manage customers, subscriptions, support tickets, and licenses etc.",
+        },
+        {
+          id: 2,
+          details:
+            "Led development of 5+ core modules, designed database schemas, serverless APIs, and frontend UIs, handling complete API integration for e2e delivery.",
+        },
+        {
+          id: 3,
+          details:
+            "Migrated product from single-tenant to multi-tenant architecture, managing dynamic database connections.",
+        },
+        {
+          id: 4,
+          details:
+            "Completely refactored backend repository, reducing code duplication by 20% and improving robustness.",
         },
       ],
     },
