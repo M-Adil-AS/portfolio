@@ -1,21 +1,26 @@
 export const aboutMeData = [
-	{
-		id: 1,
-		bio: "Greetings! I'm Adil Ahmed Siddiqui, an ambitious developer driven by a deep passion for programming and problem-solving. Over the journey of five years, I have developed a range of professional and personal projects that showcase my technical skills and creativity.",
-	},
-	{
-		id: 2,
-		bio: 'JavaScript is the core of my expertise as a developer and I have extensively worked with the MERN stack to create powerful web applications. My knowledge of SQL and Git is significant. Additionally, I have utilized Next.js, Material UI and Tailwind UI to craft visually appealing user interfaces. I am highly motivated to expand my skillset and eager to work on POSTGRES and Mobile App Development using React Native.'},
-	{
-		id: 3,
-		bio: "I am detail oriented and a quick learner, allowing me to stay up-to-date with the ever-evolving technologies. Moreover, I possess a strong problem-solving mindset that drives me to think outside the box and propose creative solutions to challenges."
-	},
-	{
-		id: 4,
-		bio: "Participating in hackathons and coding competitions is a source of great enjoyment for me. I have a keen interest in game development and enjoy building captivating games in my spare time. Through my YouTube channel, I share coding tutorials to empower and inspire others. Exploring diverse locations and cultures through travel adds a sense of enrichment to my life's experiences."
-	},
-	{
-		id: 5,
-		bio: "My goal is to secure a competitive position in the industry and to work in a collaborative environment where I can apply my skills and learn from experienced mentors, enabling me to deliver cutting-edge solutions."
-	},
+  {
+    id: 1,
+    bio: "🚀 Full-Stack Engineer with 3+ years of experience, 2x AWS Certified, building scalable web applications and AI-powered systems using Node.js, NestJS, React.js, Next.js, and cloud-native services.",
+  },
+  {
+    id: 2,
+    bio: "I specialize in designing robust backend architectures, with experience in multi-tenant systems, serverless development, LLM integrations, and real-time applications, with a strong focus on clean code and production reliability. ",
+  },
+  {
+    id: 3,
+    bio: "Currently, I work as a Junior Consultant at Systems Limited, where I design database schemas, develop serverless APIs, build frontend interfaces, and manage the full development lifecycle to deliver production-ready features end-to-end.",
+  },
+  {
+    id: 4,
+    bio: "Proven track record of contributing to complex systems, including migrating a product from a single-tenant to a multi-tenant architecture with dynamic database connections, and building AI-driven systems such as a multi-agent debate engine orchestrating persona-based LLM agents with real-time streaming.",
+  },
+  {
+    id: 5,
+    bio: "I enjoy solving complex engineering problems and continuously exploring modern technologies across cloud, AI, and scalable web architectures 💻.",
+  },
+  {
+    id: 6,
+    bio: "#FullStack #AI #WebDevelopment #AWS #Azure #MERN #NodeJS #ExpressJS #ReactJS #NestJS #NextJS #SQLServer #MongoDB #Supabase #JavaScript",
+  },
 ];
