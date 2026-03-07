@@ -74,6 +74,9 @@ import Sympos4 from "../images/Sympos4.png";
 import CSP2 from "../images/CSP2.png";
 import CSP3 from "../images/CSP3.png";
 import CSP4 from "../images/CSP4.png";
+import Rift2 from "../images/Rift2.png";
+import Rift3 from "../images/Rift3.png";
+import Rift4 from "../images/Rift4.png";
 // Import icons
 import {
   FiFacebook,
@@ -1400,569 +1403,76 @@ let singleProjectRawData = [
     },
   },
 
-  // {
-  // 	id:2,
-  // 	ProjectHeader: {
-  // 		title: 'Phoenix Digital Agency',
-  // 		publishDate: 'Jul 26, 2021',
-  // 		tags: 'UI / Frontend',
-  // 	},
-  // 	ProjectImages: [
-  // 		{
-  // 			id: 1,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image1,
-  // 		},
-  // 		{
-  // 			id: 2,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image2,
-  // 		},
-  // 		{
-  // 			id: 3,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image3,
-  // 		},
-  // 	],
-  // 	ProjectInfo: {
-  // 		ClientHeading: 'About Client',
-  // 		CompanyInfo: [
-  // 			{
-  // 				id: 1,
-  // 				title: 'Name',
-  // 				details: 'Company Ltd Company Ltd',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				title: 'Services',
-  // 				details: 'UI Design & Frontend Development UI Design & Frontend Development UI Design & Frontend Development',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				title: 'Website',
-  // 				details: 'https://UIDesignUIDesignUIDesignUIDesignUIDesignUIDesign.com',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				title: 'Phone',
-  // 				details: '555 8888 888',
-  // 			},
-  // 		],
-  // 		ObjectivesHeading: 'Objective',
-  // 		ObjectivesDetails:
-  // 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-  // 		CodeUrlHeading: "Code",
-  // 		codeUrl: "https://www.google.com/codeurl",
-  // 		demoUrlHeading: "Demo",
-  // 		demoUrl: "https://www.google.com/demourl",
-  // 		Technologies: [
-  // 			{
-  // 				title: 'Tools & Technologies',
-  // 				techs: [
-  // 					'HTML',
-  // 					'CSS',
-  // 					'JavaScript',
-  // 					'Vue.js',
-  // 					'TailwindCSS',
-  // 					'AdobeXD',
-  // 				],
-  // 			},
-  // 		],
-  // 		ProjectDetailsHeading: 'Description',
-  // 		ProjectDetails: [
-  // 			{
-  // 				id: 1,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 		],
-  // 	}
-  // },
-
-  // {
-  // 	id:3,
-  // 	ProjectHeader: {
-  // 		title: 'Project Management UI',
-  // 		publishDate: 'Jul 26, 2021',
-  // 		tags: 'UI / Frontend',
-  // 	},
-  // 	ProjectImages: [
-  // 		{
-  // 			id: 1,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image1,
-  // 		},
-  // 		{
-  // 			id: 2,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image2,
-  // 		},
-  // 		{
-  // 			id: 3,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image3,
-  // 		},
-  // 	],
-  // 	ProjectInfo: {
-  // 		ClientHeading: 'About Client',
-  // 		CompanyInfo: [
-  // 			{
-  // 				id: 1,
-  // 				title: 'Name',
-  // 				details: 'Company Ltd',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				title: 'Services',
-  // 				details: 'UI Design & Frontend Development',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				title: 'Website',
-  // 				details: 'https://company.com',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				title: 'Phone',
-  // 				details: '555 8888 888',
-  // 			},
-  // 		],
-  // 		ObjectivesHeading: 'Objective',
-  // 		ObjectivesDetails:
-  // 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-  // 		CodeUrlHeading: "Code",
-  // 		codeUrl: "https://www.google.com/codeurl",
-  // 		demoUrlHeading: "Demo",
-  // 		demoUrl: "https://www.google.com/demourl",
-  // 		Technologies: [
-  // 			{
-  // 				title: 'Tools & Technologies',
-  // 				techs: [
-  // 					'HTML',
-  // 					'CSS',
-  // 					'JavaScript',
-  // 					'Vue.js',
-  // 					'TailwindCSS',
-  // 					'AdobeXD',
-  // 				],
-  // 			},
-  // 		],
-  // 		ProjectDetailsHeading: 'Description',
-  // 		ProjectDetails: [
-  // 			{
-  // 				id: 1,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 		],
-  // 	}
-  // },
-
-  // {
-  // 	id:4,
-  // 	ProjectHeader: {
-  // 		title: 'Cloud Storage Platform',
-  // 		publishDate: 'Jul 26, 2021',
-  // 		tags: 'UI / Frontend',
-  // 	},
-  // 	ProjectImages: [
-  // 		{
-  // 			id: 1,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image1,
-  // 		},
-  // 		{
-  // 			id: 2,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image2,
-  // 		},
-  // 		{
-  // 			id: 3,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image3,
-  // 		},
-  // 	],
-  // 	ProjectInfo: {
-  // 		ClientHeading: 'About Client',
-  // 		CompanyInfo: [
-  // 			{
-  // 				id: 1,
-  // 				title: 'Name',
-  // 				details: 'Company Ltd',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				title: 'Services',
-  // 				details: 'UI Design & Frontend Development',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				title: 'Website',
-  // 				details: 'https://company.com',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				title: 'Phone',
-  // 				details: '555 8888 888',
-  // 			},
-  // 		],
-  // 		ObjectivesHeading: 'Objective',
-  // 		ObjectivesDetails:
-  // 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-  // 		CodeUrlHeading: "Code",
-  // 		codeUrl: "https://www.google.com/codeurl",
-  // 		demoUrlHeading: "Demo",
-  // 		demoUrl: "https://www.google.com/demourl",
-  // 		Technologies: [
-  // 			{
-  // 				title: 'Tools & Technologies',
-  // 				techs: [
-  // 					'HTML',
-  // 					'CSS',
-  // 					'JavaScript',
-  // 					'Vue.js',
-  // 					'TailwindCSS',
-  // 					'AdobeXD',
-  // 				],
-  // 			},
-  // 		],
-  // 		ProjectDetailsHeading: 'Description',
-  // 		ProjectDetails: [
-  // 			{
-  // 				id: 1,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 		],
-  // 	}
-  // },
-
-  // {
-  // 	id:5,
-  // 	ProjectHeader: {
-  // 		title: 'React Social App',
-  // 		publishDate: 'Jul 26, 2021',
-  // 		tags: 'UI / Frontend',
-  // 	},
-  // 	ProjectImages: [
-  // 		{
-  // 			id: 1,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image1,
-  // 		},
-  // 		{
-  // 			id: 2,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image2,
-  // 		},
-  // 		{
-  // 			id: 3,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image3,
-  // 		},
-  // 	],
-  // 	ProjectInfo: {
-  // 		ClientHeading: 'About Client',
-  // 		CompanyInfo: [
-  // 			{
-  // 				id: 1,
-  // 				title: 'Name',
-  // 				details: 'Company Ltd',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				title: 'Services',
-  // 				details: 'UI Design & Frontend Development',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				title: 'Website',
-  // 				details: 'https://company.com',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				title: 'Phone',
-  // 				details: '555 8888 888',
-  // 			},
-  // 		],
-  // 		ObjectivesHeading: 'Objective',
-  // 		ObjectivesDetails:
-  // 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-  // 		CodeUrlHeading: "Code",
-  // 		codeUrl: "https://www.google.com/codeurl",
-  // 		demoUrlHeading: "Demo",
-  // 		demoUrl: "https://www.google.com/demourl",
-  // 		Technologies: [
-  // 			{
-  // 				title: 'Tools & Technologies',
-  // 				techs: [
-  // 					'HTML',
-  // 					'CSS',
-  // 					'JavaScript',
-  // 					'Vue.js',
-  // 					'TailwindCSS',
-  // 					'AdobeXD',
-  // 				],
-  // 			},
-  // 		],
-  // 		ProjectDetailsHeading: 'Description',
-  // 		ProjectDetails: [
-  // 			{
-  // 				id: 1,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 		],
-  // 	}
-  // },
-
-  // {
-  // 	id:6,
-  // 	ProjectHeader: {
-  // 		title: 'Apple Design System',
-  // 		publishDate: 'Jul 26, 2021',
-  // 		tags: 'UI / Frontend',
-  // 	},
-  // 	ProjectImages: [
-  // 		{
-  // 			id: 1,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image1,
-  // 		},
-  // 		{
-  // 			id: 2,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image2,
-  // 		},
-  // 		{
-  // 			id: 3,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image3,
-  // 		},
-  // 	],
-  // 	ProjectInfo: {
-  // 		ClientHeading: 'About Client',
-  // 		CompanyInfo: [
-  // 			{
-  // 				id: 1,
-  // 				title: 'Name',
-  // 				details: 'Company Ltd',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				title: 'Services',
-  // 				details: 'UI Design & Frontend Development',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				title: 'Website',
-  // 				details: 'https://company.com',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				title: 'Phone',
-  // 				details: '555 8888 888',
-  // 			},
-  // 		],
-  // 		ObjectivesHeading: 'Objective',
-  // 		ObjectivesDetails:
-  // 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-  // 		CodeUrlHeading: "Code",
-  // 		codeUrl: "https://www.google.com/codeurl",
-  // 		demoUrlHeading: "Demo",
-  // 		demoUrl: "https://www.google.com/demourl",
-  // 		Technologies: [
-  // 			{
-  // 				title: 'Tools & Technologies',
-  // 				techs: [
-  // 					'HTML',
-  // 					'CSS',
-  // 					'JavaScript',
-  // 					'Vue.js',
-  // 					'TailwindCSS',
-  // 					'AdobeXD',
-  // 				],
-  // 			},
-  // 		],
-  // 		ProjectDetailsHeading: 'Description',
-  // 		ProjectDetails: [
-  // 			{
-  // 				id: 1,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 		],
-  // 	}
-  // },
-
-  // {
-  // 	id:7,
-  // 	ProjectHeader: {
-  // 		title: 'example ABC',
-  // 		publishDate: 'Jul 26, 2021',
-  // 		tags: 'UI / Frontend',
-  // 	},
-  // 	ProjectImages: [
-  // 		{
-  // 			id: 1,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image1,
-  // 		},
-  // 		{
-  // 			id: 2,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image2,
-  // 		},
-  // 		{
-  // 			id: 3,
-  // 			title: 'Kabul Project Management UI',
-  // 			img: Image3,
-  // 		},
-  // 	],
-  // 	ProjectInfo: {
-  // 		ClientHeading: 'About Client',
-  // 		CompanyInfo: [
-  // 			{
-  // 				id: 1,
-  // 				title: 'Name',
-  // 				details: 'Company Ltd',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				title: 'Services',
-  // 				details: 'UI Design & Frontend Development',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				title: 'Website',
-  // 				details: 'https://company.com',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				title: 'Phone',
-  // 				details: '555 8888 888',
-  // 			},
-  // 		],
-  // 		ObjectivesHeading: 'Objective',
-  // 		ObjectivesDetails:
-  // 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-  // 		CodeUrlHeading: "Code",
-  // 		codeUrl: "https://www.google.com/codeurl",
-  // 		demoUrlHeading: "Demo",
-  // 		demoUrl: "https://www.google.com/demourl",
-  // 		Technologies: [
-  // 			{
-  // 				title: 'Tools & Technologies',
-  // 				techs: [
-  // 					'HTML',
-  // 					'CSS',
-  // 					'JavaScript',
-  // 					'Vue.js',
-  // 					'TailwindCSS',
-  // 					'AdobeXD',
-  // 				],
-  // 			},
-  // 		],
-  // 		ProjectDetailsHeading: 'Description',
-  // 		ProjectDetails: [
-  // 			{
-  // 				id: 1,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 			{
-  // 				id: 2,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 3,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-  // 			},
-  // 			{
-  // 				id: 4,
-  // 				details:
-  // 					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-  // 			},
-  // 		],
-  // 	}
-  // }
+  {
+    id: [144],
+    ProjectHeader: {
+      title: "RiftSpace",
+      publishDate: "Jan 10, 2024",
+      tags: "Web Application",
+    },
+    ProjectImages: [
+      { id: 1, title: "RiftSpace", img: Rift2 },
+      { id: 2, title: "RiftSpace", img: Rift3 },
+      { id: 3, title: "RiftSpace", img: Rift4 },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Company",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Name",
+          details: "Systems Limited",
+        },
+        {
+          id: 2,
+          title: "Website",
+          details: "https://www.systemsltd.com/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To develop an immersive Metaverse-like platform for exploring and interacting in dynamic 3D worlds, enabling real-time communication among avatars.",
+      demoUrlHeading: "Demo",
+      demoUrl: "https://riftspace.digital/",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "Babylon JS",
+            "React JS",
+            "Node JS",
+            "MongoDB",
+            "TypeScript",
+            "Shadcn UI",
+            "Zod",
+            "Redux Toolkit",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Description",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "Developed a drag-and-drop 3D level editor using Babylon JS reducing asset placement time by 60% for world designers.",
+        },
+        {
+          id: 2,
+          details:
+            "Responsible for crafting the frontend UI for a custom, dedicated CMS panel to manage 3D assets.",
+        },
+        {
+          id: 3,
+          details:
+            "Collaborated in team sessions to test, review, and refine new features.",
+        },
+        {
+          id: 4,
+          details: "Developed backend APIs to support CMS panel.",
+        },
+      ],
+    },
+  },
 ];
 
 export const singleProjectData = processData();

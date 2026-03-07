@@ -24,12 +24,13 @@ import SolarSystem1 from "../images/SolarSystem1.png";
 import Minimax1 from "../images/Minimax1.png";
 import Sympos1 from "../images/Sympos1.png";
 import CSP1 from "../images/CSP1.png";
+import Rift1 from "../images/Rift1.png";
 
 const customSort = (a, b) => {
   const customOrder = [
-    129, 130, 141, 142, 143, 131, 104, 132, 100, 101, 115, 116, 102, 103, 105,
-    106, 117, 118, 125, 126, 119, 120, 127, 128, 109, 110, 107, 108, 111, 112,
-    138, 139, 140, 133, 134, 113, 114, 123, 124, 137, 135, 136, 121, 122,
+    129, 130, 141, 142, 143, 144, 131, 104, 132, 100, 101, 115, 116, 102, 103,
+    105, 106, 117, 118, 125, 126, 119, 120, 127, 128, 109, 110, 107, 108, 111,
+    112, 138, 139, 140, 133, 134, 113, 114, 123, 124, 137, 135, 136, 121, 122,
   ];
   const indexA = customOrder.indexOf(a.id);
   const indexB = customOrder.indexOf(b.id);
@@ -312,49 +313,12 @@ let projectsDataUnsorted = [
     category: "Web Application",
     img: CSP1,
   },
-
-  // {
-  // 	id: 2,
-  // 	title: 'Pharmacy POS',
-  // 	category: 'Desktop Application',
-  // 	img: MobileImage2,
-  // },
-  // {
-  // 	id: 3,
-  // 	title: 'Phoenix Digital Agency',
-  // 	category: 'Web3 Application',
-  // 	img: UIImage1,
-  // },
-  // {
-  // 	id: 4,
-  // 	title: 'Cloud Storage Platform',
-  // 	category: 'Web3 Application',
-  // 	img: UIImage2,
-  // },
-  // {
-  // 	id: 5,
-  // 	title: 'React Social App',
-  // 	category: 'Web3 Application',
-  // 	img: MobileImage1,
-  // },
-  // {
-  // 	id: 6,
-  // 	title: 'Apple Design System',
-  // 	category: 'Web3 Application',
-  // 	img: WebImage1,
-  // },
-  // {
-  // 	id: 7,
-  // 	title: 'example ABC',
-  // 	category: 'Web3 Application',
-  // 	img: UIImage1,
-  // },
-  // {
-  // 	id: 8,
-  // 	title: 'example DEF',
-  // 	category: 'Mobile Application',
-  // 	img: UIImage2,
-  // },
+  {
+    id: 144,
+    title: "RiftSpace",
+    category: "Web Application",
+    img: Rift1,
+  },
 ];
 
 export const projectsData = projectsDataUnsorted.sort(customSort);
