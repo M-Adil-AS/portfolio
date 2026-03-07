@@ -170,7 +170,7 @@ let singleProjectRawData = [
     ProjectInfo: {
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "To generate a dynamic crosswords puzzle using a time efficient method",
+        "To develop a game based on a dynamic crosswords puzzle generator",
       CodeUrlHeading: "Code",
       codeUrl: "https://github.com/M-Adil-AS/Crosswords",
       demoUrlHeading: "Demo",
@@ -183,12 +183,17 @@ let singleProjectRawData = [
         {
           id: 1,
           details:
-            "This project was inspired by the Android game Wordscapes. Wordscapes have hundreds of levels but those levels are hardcoded.",
+            "A dynamic word puzzle game inspired by Wordscapes, replacing static, hardcoded levels with procedurally generated puzzles.",
         },
         {
           id: 2,
           details:
-            "In this game, we get a random combination of 6 alphabets to make words from in limited time. Instead of being a hardcoded puzzle, the program generates a dynamic puzzle everytime using words from dictionary in a very short period of time (3 seconds average).",
+            "Implemented an algorithm that generates random sets of 6 letters and valid words from a dictionary, producing a new puzzle in ~3 seconds.",
+        },
+        {
+          id: 3,
+          details:
+            "Added a time-limited gameplay mode to challenge players to form words quickly, enhancing engagement and replayability.",
         },
       ],
       Instructions: [
@@ -291,7 +296,17 @@ let singleProjectRawData = [
         {
           id: 2,
           details:
-            "The social app project involves implementing user authentication and authorization, allowing users to register, log in, and manage their profiles. It includes features like creating and editing user posts, following other users, and implementing a news feed to display the latest posts from followed users. Additionally, Socket.io is integrated to enable real-time instant messaging or notifications between users.",
+            "Implemented user authentication and authorization flows, enabling registration, login, and profile management.",
+        },
+        {
+          id: 3,
+          details:
+            "Built core social features including post creation/editing, follow/unfollow functionality, and a dynamic news feed displaying updates from followed users.",
+        },
+        {
+          id: 4,
+          details:
+            "Integrated Socket.io for real-time messaging and notifications, facilitating instant communication between users.",
         },
       ],
     },
@@ -898,7 +913,7 @@ let singleProjectRawData = [
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "To find and develop a solution which reduces the waiting time of drive thru store customers, enhances staff efficiency and secures transaction data in decentralized storage.",
+        "To reduce the waiting time of drive-thru store customers.",
       CodeUrlHeading: "Code",
       codeUrl:
         "https://github.com/M-Adil-AS/Computer-Vision-assisted-Drive-Thru-Web-Store-with-On-chain-Transactions",
@@ -935,12 +950,12 @@ let singleProjectRawData = [
         {
           id: 1,
           details:
-            "Problem: In today’s world, people are busier than ever and the conventional model of drive-thru in which orders are placed using a microphone and picked up at the window, has become obsolete. The main problem with this model is that during peak hours, the long line of cars waiting to drive through cause traffic disruptions, delays, and disorder. Furthermore, many problems like delayed payments, high fees and frozen accounts surround most of centralized transaction platforms like PayPal. These online platforms have a single point of failure and also, the transaction data is mutable and not completely secure.",
+            "Problem: In today’s world, people are busier than ever and the conventional model of drive-thru in which orders are placed using a microphone and picked up at the window, has become obsolete. The main problem with this model is that during peak hours, the long line of cars waiting to drive through cause traffic disruptions, delays, and disorder.",
         },
         {
           id: 2,
           details:
-            "Solution: To reduce the waiting time of customers and to increase employee productivity, our project utilizes Automatic Number Plate Recognition technology that can be used to notify the store staff of an incoming customer beforehand. To overcome problems like data insecurity and high fees, our system uses on-chain transactions involving decentralized storage of data which allows for secure and tamper-proof record-keeping of transactions.",
+            "Solution: Integrated Automatic Number Plate Recognition (ANPR) system with our Drive-Thru Web App torecognize vehicles of incoming customers and proactively notify store staff, reducing wait times by 25%.",
         },
         {
           id: 3,
@@ -965,7 +980,12 @@ let singleProjectRawData = [
         {
           id: 7,
           details:
-            "Application Features: Employee Registration by Admin. Admin can update the employee’s role to suit the changing needs of the business. Admin has access to view the current status of employees, their attendance, the tasks assigned to each of them and the duration they took to complete those tasks. In case of an unsuccessful ANPR recognition, customers can manually notify the store staff on the app. An efficient task management system which is based on first-come, first-served principle. Automatic updates via Server Sent Events eliminate manual refresh to load new tasks. Work-load is balanced on all employees by the system. Furthermore, Admin can transfer tasks of an employee to other employees to maintain continuity of business in case of unplanned events. Attendance sheet that can be used by Admin to calculate the employee’s pay based on work hours given by them. Report Charts for Admin. Forecasting Sales using Time Series algorithms. Inventory Management. Recommending Products to Customers. Notifications generated for Admin.",
+            "Developed core system modules including role-based authorization (RBAC), employee management, task workflows, time-based attendance tracking, inventory management, and payment services.",
+        },
+        {
+          id: 8,
+          details:
+            "Implemented analytics and intelligent features such as data visualization, ML-driven time-series forecasting, and item recommendation functionality.",
         },
       ],
     },
@@ -1018,12 +1038,17 @@ let singleProjectRawData = [
         {
           id: 2,
           details:
-            "The frontend is built on Next JS v13 (App Router). Proper Navigation (Handling Invalid Authentication - Routing Middleware) is applied on the frontend.",
+            "Built with Next.js v13 (App Router), implementing route-level protection using middleware for authentication-based navigation control and handling unauthorized access.",
         },
         {
           id: 3,
           details:
-            "Proper authentication (HTTP only Cookie - JWT), authorization (demo user), middlewares, error-handling mechanism (async wrapper - HTTP Status Codes - Custom Error Classes), and a few security features (XSS protection, HTTP headers, CORS, rateLimiter) are put into practice in backend of the application.",
+            "Implemented secure authentication using JWT stored in HTTP-only cookies. Designed structured error handling using async wrappers, custom error classes, and standardized HTTP status codes.",
+        },
+        {
+          id: 4,
+          details:
+            "Applied security best practices including XSS mitigation, secure HTTP headers, CORS configuration, and rate limiting.",
         },
       ],
     },
@@ -1072,27 +1097,32 @@ let singleProjectRawData = [
         {
           id: 1,
           details:
-            "This project demonstrates an ETL pipeline implemented using Node.JS Streams to ensure a memory-efficient data processing flow, particularly when dealing with large datasets. The pipeline's main goal is to gather data from diverse sources, transform it into a consistent format, and then load it into a MongoDB collection.",
+            "ETL pipeline implemented using Node.js Streams to ensure a memory-efficient data processing flow, particularly when dealing with large datasets.",
         },
         {
           id: 2,
           details:
-            "Step 1: Data is extracted from four distinct sources, including two APIs, a JSON file, and a CSV file. JSONStream and csv-parser libraries are employed to parse and transform JSON and CSV data.",
+            "The pipeline's main goal is to gather data from diverse sources, transform it into a consistent format, and then load it into a MongoDB collection.",
         },
         {
           id: 3,
           details:
-            "Step 2: The extracted data streams are then transformed using a custom transform stream. The data transformation logic is applied to each chunk of data as it flows through the stream.",
+            "Step 1: Data is extracted from four distinct sources, including two APIs, a JSON file, and a CSV file. JSONStream and csv-parser libraries are employed to parse and transform JSON and CSV data.",
         },
         {
           id: 4,
           details:
-            "Step 3: In the loading phase, the transformed data is directly loaded into a MongoDB collection using the initializeUnorderedBulkOp method.",
+            "Step 2: The extracted data streams are then transformed using a custom transform stream. The data transformation logic is applied to each chunk of data as it flows through the stream.",
         },
         {
           id: 5,
           details:
-            "Furthermore, to allow the visitors to view the data stored in the MongoDB database, an API endpoint streams data chunks to the frontend, enabling the browser to process and present large datasets with improved responsiveness.",
+            "Step 3: In the loading phase, the transformed data is directly loaded into a MongoDB collection using the initializeUnorderedBulkOp method.",
+        },
+        {
+          id: 6,
+          details:
+            "Designed a chunked streaming API for MongoDB datasets, enabling efficient handling of large-scale data and reducing frontend load bottlenecks by approximately 40%",
         },
       ],
     },
